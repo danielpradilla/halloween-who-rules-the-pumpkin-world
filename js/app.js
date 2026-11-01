@@ -77,7 +77,6 @@ function fillFacts(data, ctx) {
     year: data.referenceYear,
     nextYear: data.referenceYear + 1,
     worldT: `${whole.format(Math.round(t.worldProductionT))} tonnes`,
-    countrySumT: `${whole.format(Math.round(t.countryProductionSumT))} tonnes`,
     gapT: `${whole.format(Math.round(gap))} tonnes (${pct(gap / t.worldProductionT)})`,
     producingCountries: t.producingCountries,
     exportReporters: t.exportReporters,
@@ -85,9 +84,6 @@ function fillFacts(data, ctx) {
     flagA: t.productionFlags.A,
     flagE: t.productionFlags.E,
     flagI: t.productionFlags.I,
-    clsH6: `${t.exportClassifications.H6 ?? 0} reporters`,
-    clsH5: t.exportClassifications.H5 ?? 0,
-    clsH4: t.exportClassifications.H4 ?? 0,
     faoUpdated: day(data.sources.production.datasetUpdated),
     retrieved,
     productionMissing: t.productionMissing.length ? andList(t.productionMissing) : 'no country',
@@ -95,8 +91,8 @@ function fillFacts(data, ctx) {
     tenthExport: fmtUsd(t.tenthExportUsd),
     unreportedProducers: andList(ctx.producers.slice(0, 20).filter((c) => !c.exports).map((c) => c.name)) || 'no country',
     coverageVerdict: !unreported || unreported.mirrorImportsUsd < t.tenthExportUsd
-      ? 'so partner data do not suggest that any non-reporter belongs in the top 10'
-      : 'so at least one non-reporter may belong in the top 10',
+      ? 'So partner data do not suggest that any of them belongs in the top 10.'
+      : 'So at least one of them may belong in the top 10.',
   };
   document.querySelectorAll('[data-fact]').forEach((node) => {
     if (node.dataset.fact in facts) node.textContent = facts[node.dataset.fact];
@@ -106,22 +102,22 @@ function fillFacts(data, ctx) {
   const growExp = sumOrNull([eShare(p1), eShare(p2)]);
   document.getElementById('lede').innerHTML =
     `In ${year}, <span class="grow">${esc(p1.name)} and ${esc(p2.name)}</span> grew ${pct(pShare(p1) + pShare(p2))} of the world’s pumpkins, squash and gourds, ` +
-    `and accounted for ${growExp == null ? 'an unreported share' : pct(growExp)} of reported export value. ` +
+    `but sold ${growExp == null ? 'an unknown share' : pct(growExp)} of reported exports. ` +
     `<span class="sell">${esc(e1.name)} and ${esc(e2.name)}</span> grew ${pct(sumOrNull([pShare(e1), pShare(e2)]))} and sold ${pct(eShare(e1) + eShare(e2))}.`;
 
-  const exportRankText = (c) => (c.exports ? ordinal(c.exports.rank) : 'nowhere (no export report)');
-  const prodRankText = (c) => (c.production ? ordinal(c.production.rank) : 'nowhere (no FAOSTAT figure)');
+  const exportRankText = (c) => (c.exports ? ordinal(c.exports.rank) : 'not ranked (no export data)');
+  const prodRankText = (c) => (c.production ? ordinal(c.production.rank) : 'not ranked (no FAOSTAT data)');
   document.getElementById('growers-copy').innerHTML =
-    `FAOSTAT records ${t.producingCountries} countries and territories growing pumpkins, squash and gourds in ${year}: ${sig.format(t.worldProductionT)} tonnes in all. ` +
-    `<b>${esc(p1.name)}</b> and <b>${esc(p2.name)}</b> grew ${pct(pShare(p1) + pShare(p2))} of it between them. ` +
-    `The top exporter, ${esc(e1.name)}, ranks ${prodRankText(e1)} here; the second, ${esc(e2.name)}, ranks ${prodRankText(e2)}.`;
+    `FAOSTAT lists ${t.producingCountries} countries and territories that grew pumpkins, squash and gourds in ${year}, ${sig.format(t.worldProductionT)} tonnes in total. ` +
+    `<b>${esc(p1.name)}</b> and <b>${esc(p2.name)}</b> grew ${pct(pShare(p1) + pShare(p2))} of it. ` +
+    `The top exporter, ${esc(e1.name)}, is ${prodRankText(e1)} here. The second, ${esc(e2.name)}, is ${prodRankText(e2)}.`;
   document.getElementById('exporters-copy').innerHTML =
-    `${t.exportReporters} countries and territories declared ${facts.exportTotal} of fresh pumpkin, squash and gourd exports in ${year}. ` +
-    `<b>${esc(e1.name)}</b> and <b>${esc(e2.name)}</b> shipped ${pct(eShare(e1) + eShare(e2))} of it. ` +
-    `The top grower, ${esc(p1.name)}, ranks ${exportRankText(p1)} here; the second, ${esc(p2.name)}, ranks ${exportRankText(p2)}.`;
+    `${t.exportReporters} countries and territories reported ${facts.exportTotal} of exports in ${year}. ` +
+    `<b>${esc(e1.name)}</b> and <b>${esc(e2.name)}</b> sold ${pct(eShare(e1) + eShare(e2))} of it. ` +
+    `The top grower, ${esc(p1.name)}, is ${exportRankText(p1)} here. The second, ${esc(p2.name)}, is ${exportRankText(p2)}.`;
   document.getElementById('paradox-copy').innerHTML =
-    'Each line joins a country’s rank as a grower (left) to its rank as an exporter (right). A falling line means the country ranks higher as a grower than as an exporter; a rising line, the reverse. ' +
-    'Switch to <b>Shares</b> to put both measures on one percentage scale. Pick any country for its numbers.';
+    'Each line connects a country’s rank as a grower (left) with its rank as an exporter (right). A line that goes down means the country ranks higher as a grower. ' +
+    'Switch to <b>Shares</b> to see both on one percent scale. Pick a country to see its numbers.';
 
   const overlap = ctx.topP.filter((c) => ctx.topE.includes(c));
   const ratioText = (c) => (c.exportWeightToProduction == null ? null : `${esc(c.name)} ${c.exportWeightToProduction < 0.001 ? 'under 0.1%' : pct(c.exportWeightToProduction)}`);
@@ -129,17 +125,17 @@ function fillFacts(data, ctx) {
   const buyerText = (c) => {
     if (!c.topBuyers?.length || !c.mirrorImportsUsd) return null;
     const share = c.topBuyers.reduce((a, b) => a + b.usd, 0) / c.mirrorImportsUsd;
-    return `<li>${esc(c.name)}’s largest buyers, by their own import declarations: ${andList(c.topBuyers.map((b) => esc(b.name)))}, together ${pct(share)} of all imports declared from ${esc(c.name)}.</li>`;
+    return `<li>${esc(c.name)}’s top buyers: ${andList(c.topBuyers.map((b) => esc(b.name)))}. Together, ${pct(share)} of all reported purchases from ${esc(c.name)}.</li>`;
   };
   const imp = t.topImporters[0];
   document.getElementById('facts-list').innerHTML = [
     `<li>${esc(p1.name)} and ${esc(p2.name)}: ${pct(pShare(p1) + pShare(p2))} of world production, ${growExp == null ? 'exports not fully reported' : `${pct(growExp)} of reported exports`}.</li>`,
     `<li>${esc(e1.name)} and ${esc(e2.name)}: ${pct(eShare(e1) + eShare(e2))} of reported exports, ${pct(sumOrNull([pShare(e1), pShare(e2)]))} of world production.</li>`,
     `<li>Countries in both top 10s: ${andList(overlap.map((c) => esc(c.name)))} (${overlap.length}).</li>`,
-    ratios.length ? `<li>Exported weight as a share of production weight (approximate): ${ratios.join('; ')}.</li>` : '',
+    ratios.length ? `<li>Weight exported compared with weight grown (approximate): ${ratios.join(', ')}.</li>` : '',
     buyerText(e1) ?? '',
     buyerText(e2) ?? '',
-    imp ? `<li>The largest importer, ${esc(imp.name)}, declared ${fmtUsd(imp.usd)} of imports: ${pct(imp.usd / t.importsDeclaredUsd)} of all declared imports.</li>` : '',
+    imp ? `<li>Largest importer: ${esc(imp.name)}, with ${fmtUsd(imp.usd)}, or ${pct(imp.usd / t.importsDeclaredUsd)} of all reported imports.</li>` : '',
   ].join('');
 }
 
@@ -378,15 +374,15 @@ function renderParadox(ctx) {
   const isRank = state.view === 'rank';
   document.getElementById('paradox-title-text').textContent = isRank ? 'Production rank and export rank' : 'Share of world production and share of reported exports';
   document.getElementById('paradox-sub').textContent = isRank
-    ? `Countries in either top 10, ${ctx.year}. Ranks 11 and below are stacked in order. n/r: not reported. Click or tap a line.`
-    : `Countries in either top 10, ${ctx.year}. Both measures on the same percentage scale. Click or tap a row.`;
+    ? `Countries in either top 10, ${ctx.year}. Below the dashed line, countries are in rank order but not to scale. n/r means not reported. Click or tap a line.`
+    : `Countries in either top 10, ${ctx.year}. Both use the same percent scale. Click or tap a row.`;
   const item = (mark, text) => `<span class="legend-item">${mark} ${text}</span>`;
   document.getElementById('paradox-legend').innerHTML = isRank
-    ? item('<span class="key key-grow"></span>', 'Larger share of world production than of exports') +
-      item('<span class="key key-sell"></span>', 'Larger share of exports than of production') +
+    ? item('<span class="key key-grow"></span>', 'Bigger share of world production than of exports') +
+      item('<span class="key key-sell"></span>', 'Bigger share of exports than of production') +
       item('<span class="key key-missing"></span>', 'Exports not reported (dashed)')
     : item('<span class="dot dot-grow"></span>', 'Share of world production (tonnes)') +
-      item('<span class="dot dot-sell"></span>', 'Share of reported world exports (US$)');
+      item('<span class="dot dot-sell"></span>', 'Share of reported exports (US$)');
   applyFocus();
 }
 
@@ -417,31 +413,31 @@ function renderCard(ctx, c) {
       : `<span class="rank-shift${diff > 0 ? ' down' : ''}">${Math.abs(diff)} place${Math.abs(diff) === 1 ? '' : 's'} ${diff > 0 ? 'lower' : 'higher'}</span>`;
     verdict = `${ordinal(c.production.rank)} for production, ${ordinal(c.exports.rank)} for export value: ${shift} as an exporter.`;
   } else if (c.production) {
-    verdict = `${ordinal(c.production.rank)} for production. No export figure reported for ${year}.`;
+    verdict = `${ordinal(c.production.rank)} for production. No export data for ${year}.`;
   } else if (c.exports) {
-    verdict = `${ordinal(c.exports.rank)} for export value. No FAOSTAT production figure for ${year}.`;
+    verdict = `${ordinal(c.exports.rank)} for export value. No FAOSTAT production data for ${year}.`;
   } else {
     verdict = `No production or export figures for ${year}.`;
   }
 
   const prodStat = c.production
     ? `<p class="stat-value">${fmtT(c.production.tonnes)}</p><p class="stat-meta">${pct(c.production.share)} of world production<br>Rank ${c.production.rank} of ${t.producingCountries} · FAO ${FLAGS[c.production.flag] ?? c.production.flag}</p>`
-    : `<p class="stat-missing">No FAOSTAT production figure for ${year}.</p>`;
+    : `<p class="stat-missing">No FAOSTAT production data for ${year}.</p>`;
   const expStat = c.exports
-    ? `<p class="stat-value">${fmtUsd(c.exports.usd)}</p><p class="stat-meta">${pct(c.exports.share)} of reported world exports<br>Rank ${c.exports.rank} of ${t.exportReporters}</p>`
-    : `<p class="stat-missing">Not reported to UN Comtrade for ${year}.${c.mirrorImportsUsd ? ` Partners declared ${fmtUsd(c.mirrorImportsUsd)} of imports from ${esc(c.name)}.` : ''}</p>`;
+    ? `<p class="stat-value">${fmtUsd(c.exports.usd)}</p><p class="stat-meta">${pct(c.exports.share)} of reported exports<br>Rank ${c.exports.rank} of ${t.exportReporters}</p>`
+    : `<p class="stat-missing">Did not report ${year} exports to UN Comtrade.${c.mirrorImportsUsd ? ` Other countries reported buying ${fmtUsd(c.mirrorImportsUsd)} from ${esc(c.name)}.` : ''}</p>`;
 
   const notes = [];
   if (c.exportWeightToProduction != null) {
     const r = c.exportWeightToProduction;
     notes.push(r > 1
-      ? `Exported weight is ${pct(r)} of production weight, more than it grew. Re-exports or the difference in scope between the two sources could explain this; the data cannot tell which.`
-      : `Exported weight equals about ${r < 0.001 ? 'less than 0.1%' : pct(r)} of production weight.`);
+      ? `Exports weigh ${pct(r)} of what it grew, so more than it grew. Re-exports or differences between the two sources could explain this. The data cannot tell which.`
+      : `Exports weigh about ${r < 0.001 ? 'less than 0.1%' : pct(r)} of what it grew.`);
   }
   if (c.exports && c.topBuyers?.length) {
-    notes.push(`Main buyers, by their import declarations: ${c.topBuyers.map((b) => `${esc(b.name)} ${fmtUsd(b.usd)}`).join(', ')}.`);
+    notes.push(`Top buyers, by their own import numbers: ${c.topBuyers.map((b) => `${esc(b.name)} ${fmtUsd(b.usd)}`).join(', ')}.`);
   }
-  if (!ctx.set.includes(c)) notes.push('Outside both top 10s, so it is not drawn in the chart.');
+  if (!ctx.set.includes(c)) notes.push('Not in either top 10, so it is not in the chart.');
 
   card.innerHTML = `
     <p class="eyebrow">Selected country</p>
@@ -452,7 +448,7 @@ function renderCard(ctx, c) {
       <div class="stat sell"><p class="stat-label">Exports</p>${expStat}</div>
     </div>
     ${notes.length ? `<ul class="card-list">${notes.map((n) => `<li>${n}</li>`).join('')}</ul>` : ''}
-    <p class="card-foot">Production: FAOSTAT, tonnes. Exports: UN Comtrade HS 070993, US$ FOB, declared by the exporter. ${year}. All varieties of pumpkins, squash and gourds.</p>`;
+    <p class="card-foot">Production: FAOSTAT, tonnes. Exports: UN Comtrade, US dollars, as reported by the exporter. ${year}. All kinds of pumpkins, squash and gourds.</p>`;
 }
 
 function select(ctx, id) {

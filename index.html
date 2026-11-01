@@ -60,20 +60,20 @@
       <figure class="split-figure">
         <figcaption class="figure-head">
           <span class="figure-title">China and India grew almost half the world’s pumpkins. Spain and Mexico sold about two-thirds of reported exports.</span>
-          <span class="figure-sub">Share of world totals, <span data-fact="year">2024</span>. Upper bar: production, tonnes. Lower bar: reported exports, US dollars.</span>
+          <span class="figure-sub">Share of the world total, <span data-fact="year">2024</span>. Top bar: production in tonnes. Bottom bar: reported exports in US dollars.</span>
         </figcaption>
         <div id="split" class="split" data-state="loading"><p class="state">Loading chart…</p></div>
         <p class="source-line">Sources: <a href="https://www.fao.org/faostat/en/#data/QCL">FAOSTAT QCL</a>, item 394 · <a href="https://comtradeplus.un.org/">UN Comtrade</a>, HS 070993</p>
       </figure>
       <div class="caveat" role="note" aria-label="What the figures include">
         <p class="caveat-label">What counts as a pumpkin here</p>
-        <p><strong>These figures include pumpkins, squash and gourds of all varieties—not just the orange Halloween pumpkins.</strong> Courgettes, butternut squash and kabocha count too.</p>
-        <p>Production is measured in tonnes and exports in US dollars, so the two are only compared by rank and by share of the world total. The figures cover full calendar years, not Halloween sales.</p>
+        <p>These figures include pumpkins, squash and gourds of all varieties, not just the orange Halloween pumpkins. Zucchini, butternut squash and kabocha count too.</p>
+        <p>Production is in tonnes and exports are in US dollars, so I only compare ranks and shares. The numbers cover the whole year, not just Halloween.</p>
       </div>
     </section>
 
     <noscript>
-      <p class="noscript-note">The charts on this page are drawn with JavaScript. The underlying figures are in <a href="data/pumpkins-2024.json">data/pumpkins-2024.json</a>.</p>
+      <p class="noscript-note">The charts need JavaScript. The numbers are in <a href="data/pumpkins-2024.json">data/pumpkins-2024.json</a>.</p>
     </noscript>
 
     <section id="growers" class="chapter" aria-labelledby="growers-title">
@@ -85,10 +85,10 @@
       <figure class="chart-figure">
         <figcaption class="figure-head">
           <span class="figure-title">Top 10 producers of pumpkins, squash and gourds</span>
-          <span class="figure-sub">Production in tonnes, <span data-fact="year">2024</span>, with share of the world total</span>
+          <span class="figure-sub">Tonnes, <span data-fact="year">2024</span>, and share of the world total</span>
         </figcaption>
         <div id="growers-chart" class="bars" data-state="loading"><p class="state">Loading chart…</p></div>
-        <p class="source-line">Source: FAOSTAT, Crops and livestock products (QCL), item 394 “Pumpkins, squash and gourds”, element Production. World total: <span data-fact="worldT"></span>.</p>
+        <p class="source-line">Source: FAOSTAT, crops and livestock products, item 394 “Pumpkins, squash and gourds”. World total: <span data-fact="worldT"></span>.</p>
         <details class="table-toggle"><summary>Show the table</summary><div id="growers-table"></div></details>
       </figure>
     </section>
@@ -102,10 +102,10 @@
       <figure class="chart-figure">
         <figcaption class="figure-head">
           <span class="figure-title">Top 10 exporters of pumpkins, squash and gourds</span>
-          <span class="figure-sub">Export value in US dollars (FOB), <span data-fact="year">2024</span>, with share of reported world exports</span>
+          <span class="figure-sub">US dollars, <span data-fact="year">2024</span>, and share of reported exports</span>
         </figcaption>
         <div id="exporters-chart" class="bars" data-state="loading"><p class="state">Loading chart…</p></div>
-        <p class="source-line">Source: UN Comtrade, HS 070993 “Pumpkins, squash and gourds (Cucurbita spp.), fresh or chilled”, exports as declared by each exporting country. Total of <span data-fact="exportReporters"></span> reporters: <span data-fact="exportTotal"></span>.</p>
+        <p class="source-line">Source: UN Comtrade, product code HS 070993, exports as reported by each exporting country. <span data-fact="exportReporters"></span> countries reported a total of <span data-fact="exportTotal"></span>.</p>
         <details class="table-toggle"><summary>Show the table</summary><div id="exporters-table"></div></details>
       </figure>
     </section>
@@ -139,7 +139,7 @@
           </figcaption>
           <div id="paradox-chart" class="paradox-chart" data-state="loading"><p class="state">Loading chart…</p></div>
           <p class="legend" id="paradox-legend"></p>
-          <p class="source-line">Sources: FAOSTAT QCL item 394 (tonnes) · UN Comtrade HS 070993 (US dollars). Includes pumpkins, squash and gourds of all varieties.</p>
+          <p class="source-line">Sources: FAOSTAT (tonnes) and UN Comtrade (US dollars). All kinds of pumpkins, squash and gourds.</p>
           <details class="table-toggle"><summary>Show the table</summary><div id="paradox-table"></div></details>
         </figure>
 
@@ -157,16 +157,16 @@
       </div>
       <div class="takeaway-grid">
         <div class="takeaway-block">
-          <h3>Shown by the data</h3>
+          <h3>What the data shows</h3>
           <ul id="facts-list"><li>Loading…</li></ul>
         </div>
         <div class="takeaway-block">
-          <h3>Plausible explanations, not tested here</h3>
+          <h3>Possible reasons (not tested)</h3>
           <ul>
-            <li>Domestic demand? India and China have large populations, who may eat much of what they grow. FAOSTAT does not list this item separately, so we cannot show how much of the harvest is eaten at home.</li>
-            <li>Market access and distance? Pumpkins are heavy, perishable and cheap. Mexico borders the United States, and Spain is part of the EU.</li>
-            <li>Off-season supply? Mexico and southern Spain may be able to grow pumpkins when buyers elsewhere need them.</li>
-            <li>The trade code’s scope? HS 070993 covers only <i>Cucurbita</i> species. Bottle gourds (<i>Lagenaria</i>), common in South Asia, are traded under another code, so India’s exports may be undercounted.</li>
+            <li>People eat them at home? India and China have many people, and they may eat much of what they grow. FAOSTAT does not count this, so I cannot check.</li>
+            <li>Distance to buyers? Pumpkins are heavy, cheap and do not keep long. Mexico borders the United States, and Spain is in the EU.</li>
+            <li>Growing season? Mexico and southern Spain may be able to grow pumpkins when buyers elsewhere need them.</li>
+            <li>The trade code? HS 070993 counts only <i>Cucurbita</i> species. Bottle gourds, common in South Asia, use another code. So India’s exports may be undercounted.</li>
           </ul>
         </div>
       </div>
@@ -174,67 +174,34 @@
 
     <section id="methodology" class="chapter methodology" aria-labelledby="methodology-title">
       <details class="method-details">
-        <summary><h2 id="methodology-title">Sources &amp; methodology</h2><span class="summary-hint">Datasets, definitions, calculations and limitations</span></summary>
+        <summary><h2 id="methodology-title">Sources &amp; methodology</h2><span class="summary-hint">Where the numbers come from and how I used them</span></summary>
         <div class="method-grid">
           <div class="method-block">
             <h3>Production: FAOSTAT</h3>
-            <dl class="definition-list">
-              <dt>Dataset</dt>
-              <dd><a href="https://www.fao.org/faostat/en/#data/QCL">FAOSTAT Crops and livestock products (QCL)</a>, bulk file updated <span data-fact="faoUpdated"></span>.</dd>
-              <dt>Item</dt>
-              <dd>394 “Pumpkins, squash and gourds” (CPC 01235): <i>Cucurbita</i> species (pumpkins, squash, courgettes) and <i>Lagenaria</i> gourds.</dd>
-              <dt>Indicator</dt>
-              <dd>Element 5510 Production, tonnes, calendar year <span data-fact="year"></span>.</dd>
-              <dt>Definition</dt>
-              <dd>Harvested crop quantity, whatever its use. FAO marks each value as official (<span data-fact="flagA"></span> countries), estimated (<span data-fact="flagE"></span>) or imputed (<span data-fact="flagI"></span>); the flag is shown for each country.</dd>
-            </dl>
+            <p><a href="https://www.fao.org/faostat/en/#data/QCL">FAOSTAT Crops and livestock products (QCL)</a>, file updated <span data-fact="faoUpdated"></span>. Item 394 “Pumpkins, squash and gourds”, element 5510 Production, in tonnes, for <span data-fact="year"></span>.</p>
+            <p>The item covers pumpkins, squash, zucchini and bottle gourds, whatever they are used for. FAO marks each number as official (<span data-fact="flagA"></span> countries), estimated (<span data-fact="flagE"></span>) or imputed by FAO (<span data-fact="flagI"></span>). The table under the first chart shows the mark for each country.</p>
           </div>
           <div class="method-block">
             <h3>Exports: UN Comtrade</h3>
-            <dl class="definition-list">
-              <dt>Dataset</dt>
-              <dd><a href="https://comtradeplus.un.org/">UN Comtrade</a>, annual goods trade, retrieved through the <a href="https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2024&amp;cmdCode=070993&amp;flowCode=X&amp;partnerCode=0">public preview API</a>.</dd>
-              <dt>Code</dt>
-              <dd>HS 070993 “Pumpkins, squash and gourds (<i>Cucurbita</i> spp.), fresh or chilled”. The subheading exists in HS 2012, 2017 and 2022 with the same wording. Reporters used HS 2022 (<span data-fact="clsH6"></span>), HS 2017 (<span data-fact="clsH5"></span>) and HS 2012 (<span data-fact="clsH4"></span>).</dd>
-              <dt>Indicator</dt>
-              <dd>Exports (flow X) to all partners combined, as declared by the exporting country. Value is FOB in current US dollars, calendar year <span data-fact="year"></span>.</dd>
-              <dt>Definition</dt>
-              <dd>Goods leaving a country’s economic territory, including re-exports where the reporter counts them. This may inflate the figures of trading hubs such as the Netherlands.</dd>
-            </dl>
+            <p><a href="https://comtradeplus.un.org/">UN Comtrade</a>, through its <a href="https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2024&amp;cmdCode=070993&amp;flowCode=X&amp;partnerCode=0">public API</a>. Product code HS 070993 “Pumpkins, squash and gourds (<i>Cucurbita</i> spp.), fresh or chilled”. Exports to all countries, as reported by the exporter, for <span data-fact="year"></span>.</p>
+            <p>Values are in US dollars at the exporter’s border, without shipping costs. They include re-exports when a country counts them. This may inflate the numbers for trading hubs such as the Netherlands.</p>
           </div>
           <div class="method-block">
-            <h3>Calculations</h3>
-            <dl class="definition-list">
-              <dt>Production share</dt>
-              <dd>Country tonnes ÷ FAO’s World total (<span data-fact="worldT"></span>). Country rows sum to <span data-fact="countrySumT"></span>, <span data-fact="gapT"></span> less than the World total. FAO does not explain the gap; its aggregates may include values not published at country level.</dd>
-              <dt>Export share</dt>
-              <dd>Country export value ÷ the sum of exports declared by all <span data-fact="exportReporters"></span> reporting countries (<span data-fact="exportTotal"></span>). Non-reporters are not in the denominator.</dd>
-              <dt>Ranks</dt>
-              <dd>Production ranks among <span data-fact="producingCountries"></span> countries with a FAOSTAT value; export ranks among <span data-fact="exportReporters"></span> Comtrade reporters. A country with no reported value has no rank; it is never treated as zero.</dd>
-              <dt>Exported weight ÷ production</dt>
-              <dd>Comtrade net weight ÷ FAOSTAT tonnes, shown on the country card. Approximate: the two classifications differ in scope, and re-exports can push the ratio above 100%.</dd>
-            </dl>
+            <h3>How I calculated the numbers</h3>
+            <p>Production share is a country’s tonnes divided by FAO’s world total (<span data-fact="worldT"></span>). The countries add up to <span data-fact="gapT"></span> less than that total. FAO does not explain the difference.</p>
+            <p>Export share is a country’s exports divided by the total of the <span data-fact="exportReporters"></span> countries that reported (<span data-fact="exportTotal"></span>).</p>
+            <p>A country without a number has no rank. I never count it as zero. “Exports weigh X% of what it grew” divides Comtrade weight by FAOSTAT tonnes. It is approximate, because the two sources do not count exactly the same products.</p>
           </div>
           <div class="method-block">
-            <h3>Coverage and joins</h3>
-            <dl class="definition-list">
-              <dt>Aggregates</dt>
-              <dd>FAO regional aggregates and its “China” total (mainland, Hong Kong, Macao and Taiwan) are excluded from rankings; China (mainland) is ranked on its own, so nothing is counted twice.</dd>
-              <dt>Missing values</dt>
-              <dd>FAOSTAT lists <span data-fact="productionMissing"></span> as missing for <span data-fact="year"></span>. Among the top 20 producers, <span data-fact="unreportedProducers"></span> had no <span data-fact="year"></span> export declaration in Comtrade. These appear as “not reported”, not zero.</dd>
-              <dt>Coverage check</dt>
-              <dd>For countries that did not report exports, imports declared by their partners were summed. The largest, <span data-fact="unreported1"></span>, compares with <span data-fact="tenthExport"></span> for the 10th-ranked exporter, <span data-fact="coverageVerdict"></span>. These partner-declared figures are used only for this check and for the “main buyers” on the country card; they are never mixed into the rankings.</dd>
-              <dt>Joining the sources</dt>
-              <dd>FAO M49 area codes are matched to Comtrade reporter codes; six differ (United States 840/842, France 250/251, India 356/699, Switzerland 756/757, Norway 578/579, and Taiwan 158, published by Comtrade as “Other Asia, nes” 490).</dd>
-            </dl>
+            <h3>Gaps and limits</h3>
+            <p>FAO’s “China” total includes mainland China, Hong Kong, Macao and Taiwan. I left it out and ranked China (mainland) on its own, so nothing counts twice. Regions such as “Asia” are left out too.</p>
+            <p>FAOSTAT has no <span data-fact="year"></span> number for <span data-fact="productionMissing"></span>. Among the top 20 growers, <span data-fact="unreportedProducers"></span> did not report exports to Comtrade. The page shows them as “not reported”.</p>
+            <p>For those countries, I added up what other countries said they bought from them. The largest is <span data-fact="unreported1"></span>, against <span data-fact="tenthExport"></span> for the 10th exporter. <span data-fact="coverageVerdict"></span> I used these numbers only for this check and for the top buyers on the country card.</p>
+            <p>FAOSTAT counts bottle gourds (<i>Lagenaria</i>). The trade code does not. The trade code also counts only fresh or chilled produce.</p>
           </div>
           <div class="method-block">
-            <h3>Scope differences</h3>
-            <p>FAOSTAT’s item includes <i>Lagenaria</i> bottle gourds; HS 070993 does not (they fall under 070999). HS 070993 covers fresh or chilled produce only; frozen, dried or processed pumpkin is classified elsewhere. Production is a physical quantity and exports are a value, so the page compares ranks and shares rather than putting tonnes and dollars on one axis.</p>
-          </div>
-          <div class="method-block">
-            <h3>Retrieval and files</h3>
-            <p>Retrieved <span data-fact="retrieved"></span>. The page reads only <a href="data/pumpkins-2024.json">data/pumpkins-2024.json</a>, built by <code>scripts/build_data.py</code> from raw API responses kept in the <a href="https://github.com/danielpradilla/halloween-who-rules-the-pumpkin-world">GitHub repository</a>. The reference year, <span data-fact="year"></span>, is the latest year in FAOSTAT; Comtrade’s <span data-fact="nextYear"></span> data were still incomplete.</p>
+            <h3>Data files</h3>
+            <p>Retrieved <span data-fact="retrieved"></span>. <span data-fact="year"></span> is the latest year in FAOSTAT. Comtrade data for <span data-fact="nextYear"></span> were not complete yet. The page reads only <a href="data/pumpkins-2024.json">data/pumpkins-2024.json</a>. The code and the raw data are on <a href="https://github.com/danielpradilla/halloween-who-rules-the-pumpkin-world">GitHub</a>.</p>
           </div>
         </div>
       </details>
@@ -263,6 +230,6 @@
     </symbol>
   </svg>
 
-  <script data-cfasync="false" type="module" src="js/app.js?v=2"></script>
+  <script data-cfasync="false" type="module" src="js/app.js?v=3"></script>
 </body>
 </html>

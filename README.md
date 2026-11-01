@@ -2,7 +2,7 @@
 
 A one-page data story comparing the countries that grow the most pumpkins, squash and gourds with the countries that export the most. Production comes from FAOSTAT (tonnes) and exports from UN Comtrade (US dollars). Reference year: 2024.
 
-The figures cover pumpkins, squash and gourds of all varieties, including courgettes and butternut squash, and not only Halloween carving pumpkins. Annual trade totals say nothing specific about Halloween sales.
+The figures cover pumpkins, squash and gourds of all varieties, including zucchini and butternut squash, not just Halloween pumpkins. The numbers cover the whole year, not just Halloween.
 
 - Published: <https://www.danielpradilla.info/projects/halloween-who-rules-the-pumpkin-world/>
 - Source: <https://github.com/danielpradilla/halloween-who-rules-the-pumpkin-world>
@@ -92,7 +92,7 @@ FAOSTAT usually adds a year in December. UN Comtrade fills in over the following
 
    The lede, chapter text, charts, tables, country card, "Shown by the data" list and most of the methodology fill in from the JSON.
 
-5. Re-read the fixed prose. The title of the opening share chart ("China and India grow almost half… Spain and Mexico sell about two-thirds…") and "Plausible explanations, not tested here" name India, China, Mexico and Spain. If the top two growers or exporters change, or their shares move away from half and two-thirds, rewrite them. Update the "Results" table and "Method" figures in this README.
+5. Re-read the fixed prose. The title of the opening share chart ("China and India grew almost half… Spain and Mexico sold about two-thirds…") and "Possible reasons (not tested)" name India, China, Mexico and Spain. If the top two growers or exporters change, or their shares move away from half and two-thirds, rewrite them. Update the "Results" table and "Method" figures in this README.
 
 6. Check the page locally at desktop and phone widths, and that the browser console has no errors.
 
