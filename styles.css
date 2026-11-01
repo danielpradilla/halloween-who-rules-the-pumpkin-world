@@ -214,7 +214,6 @@ code {
 
 .tagline {
   margin: 10px 0 0;
-  max-width: 720px;
   color: var(--secondary);
   font-size: clamp(1rem, 1.6vw, 1.2rem);
   line-height: 1.35;
