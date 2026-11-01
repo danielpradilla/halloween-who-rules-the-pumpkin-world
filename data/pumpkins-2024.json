@@ -1,0 +1,4995 @@
+{
+ "title": "Who Rules the Pumpkin World?",
+ "referenceYear": 2024,
+ "built": "2026-11-01",
+ "retrieved": {
+  "comtrade-070993-2024-M-partners-00.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-01.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-02.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-03.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-04.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-05.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-06.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-07.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-08.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-09.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-10.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-11.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-12.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-13.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-14.json": "2026-11-01",
+  "comtrade-070993-2024-M-partners-15.json": "2026-11-01",
+  "comtrade-070993-2024-M-world.json": "2026-11-01",
+  "comtrade-070993-2024-X-world.json": "2026-11-01",
+  "comtrade-reporters.json": "2026-11-01",
+  "faostat-datasets.json": "2026-11-01",
+  "faostat-qcl-394-production.csv": "2026-11-01"
+ },
+ "sources": {
+  "production": {
+   "publisher": "FAO",
+   "dataset": "FAOSTAT Crops and livestock products (QCL)",
+   "datasetUpdated": "2025-12-31",
+   "item": "Pumpkins, squash and gourds",
+   "itemCode": 394,
+   "cpc": "01235",
+   "element": "Production (element 5510)",
+   "unit": "tonnes",
+   "url": "https://www.fao.org/faostat/en/#data/QCL",
+   "bulk": "https://bulks-faostat.fao.org/production/Production_Crops_Livestock_E_All_Data_(Normalized).zip"
+  },
+  "exports": {
+   "publisher": "United Nations Statistics Division",
+   "dataset": "UN Comtrade, annual, HS (as reported)",
+   "hsCode": "070993",
+   "hsDescription": "Pumpkins, squash and gourds (Cucurbita spp.), fresh or chilled",
+   "flow": "Exports (X), reporter-declared, partner World",
+   "valueField": "primaryValue (FOB, current US dollars)",
+   "url": "https://comtradeplus.un.org/",
+   "api": "https://comtradeapi.un.org/public/v1/preview/C/A/HS"
+  }
+ },
+ "totals": {
+  "worldProductionT": 34584404.71,
+  "countryProductionSumT": 34553854.49,
+  "producingCountries": 126,
+  "productionMissing": [
+   "Yemen"
+  ],
+  "productionFlags": {
+   "A": 68,
+   "E": 20,
+   "I": 38,
+   "X": 0
+  },
+  "reportedExportsUsd": 1741881507.327,
+  "exportReporters": 114,
+  "importReporters": 128,
+  "importsDeclaredUsd": 1837917889.546,
+  "topImporters": [
+   {
+    "name": "United States",
+    "usd": 573300153.0
+   },
+   {
+    "name": "France",
+    "usd": 217904460.786
+   },
+   {
+    "name": "Germany",
+    "usd": 206146804.787
+   },
+   {
+    "name": "United Kingdom",
+    "usd": 116076642.352
+   },
+   {
+    "name": "Netherlands",
+    "usd": 90820022.452
+   }
+  ],
+  "exportClassifications": {
+   "H4": 2,
+   "H5": 4,
+   "H6": 108
+  },
+  "tenthExportUsd": 28671761.893,
+  "largestUnreportedByMirror": [
+   {
+    "name": "Bangladesh",
+    "mirrorImportsUsd": 5228720.883
+   },
+   {
+    "name": "Iran",
+    "mirrorImportsUsd": 2490125.203
+   },
+   {
+    "name": "Syria",
+    "mirrorImportsUsd": 1465181.239
+   },
+   {
+    "name": "Libya",
+    "mirrorImportsUsd": 136580.794
+   },
+   {
+    "name": "Tonga",
+    "mirrorImportsUsd": 134099.667
+   }
+  ]
+ },
+ "countries": [
+  {
+   "id": 8,
+   "name": "Albania",
+   "faoArea": "Albania",
+   "m49": "008",
+   "production": {
+    "tonnes": 32488.8,
+    "flag": "A",
+    "rank": 64,
+    "share": 0.0009394060783300381
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 2582639.63,
+    "netWeightT": 3365.764,
+    "classification": "H6",
+    "rank": 26,
+    "share": 0.0014826723971386455
+   },
+   "comtradeReporter": "Albania",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 3237612.408,
+   "topBuyers": [
+    {
+     "name": "Serbia",
+     "usd": 819626.0
+    },
+    {
+     "name": "Bosnia and Herzegovina",
+     "usd": 351908.695
+    },
+    {
+     "name": "Latvia",
+     "usd": 310465.453
+    }
+   ],
+   "exportWeightToProduction": 0.10359767058186206
+  },
+  {
+   "id": 12,
+   "name": "Algeria",
+   "faoArea": "Algeria",
+   "m49": "012",
+   "production": {
+    "tonnes": 476580.21,
+    "flag": "I",
+    "rank": 14,
+    "share": 0.013780205673518444
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 586623.575,
+    "netWeightT": 415.99861,
+    "classification": "H4",
+    "rank": 51,
+    "share": 0.0003367758211637494
+   },
+   "comtradeReporter": "Algeria",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 489475.79000000004,
+   "topBuyers": [
+    {
+     "name": "Tunisia",
+     "usd": 414114.454
+    },
+    {
+     "name": "Italy",
+     "usd": 38104.122
+    },
+    {
+     "name": "Canada",
+     "usd": 16903.47
+    }
+   ],
+   "exportWeightToProduction": 0.0008728826780281119
+  },
+  {
+   "id": 24,
+   "name": "Angola",
+   "faoArea": null,
+   "m49": "024",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 602.04,
+    "netWeightT": 0.461432,
+    "classification": "H6",
+    "rank": 107,
+    "share": 3.4562626531574986e-07
+   },
+   "comtradeReporter": "Angola",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 28,
+   "name": "Antigua and Barbuda",
+   "faoArea": "Antigua and Barbuda",
+   "m49": "028",
+   "production": {
+    "tonnes": 197.43,
+    "flag": "A",
+    "rank": 118,
+    "share": 5.708642425842119e-06
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 104.0,
+   "topBuyers": [
+    {
+     "name": "Montserrat",
+     "usd": 104.0
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 32,
+   "name": "Argentina",
+   "faoArea": "Argentina",
+   "m49": "032",
+   "production": {
+    "tonnes": 260419.21,
+    "flag": "I",
+    "rank": 25,
+    "share": 0.007529960749178383
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 425105.59,
+    "netWeightT": 2585.38,
+    "classification": "H6",
+    "rank": 57,
+    "share": 0.000244049660216179
+   },
+   "comtradeReporter": "Argentina",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 3709472.5949999997,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 995583.792
+    },
+    {
+     "name": "Netherlands",
+     "usd": 916695.071
+    },
+    {
+     "name": "Germany",
+     "usd": 512440.687
+    }
+   ],
+   "exportWeightToProduction": 0.009927762241502845
+  },
+  {
+   "id": 36,
+   "name": "Australia",
+   "faoArea": "Australia",
+   "m49": "036",
+   "production": {
+    "tonnes": 156238.0,
+    "flag": "A",
+    "rank": 35,
+    "share": 0.004517585348370161
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 3432107.702,
+    "netWeightT": 3012.6738,
+    "classification": "H6",
+    "rank": 23,
+    "share": 0.001970345105314731
+   },
+   "comtradeReporter": "Australia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 7107271.232,
+   "topBuyers": [
+    {
+     "name": "Singapore",
+     "usd": 3906459.2
+    },
+    {
+     "name": "New Zealand",
+     "usd": 1468238.052
+    },
+    {
+     "name": "Malaysia",
+     "usd": 1092115.287
+    }
+   ],
+   "exportWeightToProduction": 0.01928259322315954
+  },
+  {
+   "id": 40,
+   "name": "Austria",
+   "faoArea": "Austria",
+   "m49": "040",
+   "production": {
+    "tonnes": 32910.0,
+    "flag": "A",
+    "rank": 62,
+    "share": 0.0009515849781414381
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 2374137.679,
+    "netWeightT": 1268.347,
+    "classification": "H6",
+    "rank": 27,
+    "share": 0.0013629731236100137
+   },
+   "comtradeReporter": "Austria",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1890355.459,
+   "topBuyers": [
+    {
+     "name": "Netherlands",
+     "usd": 752425.436
+    },
+    {
+     "name": "Germany",
+     "usd": 496042.142
+    },
+    {
+     "name": "Italy",
+     "usd": 289070.267
+    }
+   ],
+   "exportWeightToProduction": 0.038539866302035854
+  },
+  {
+   "id": 31,
+   "name": "Azerbaijan",
+   "faoArea": "Azerbaijan",
+   "m49": "031",
+   "production": {
+    "tonnes": 22743.73,
+    "flag": "I",
+    "rank": 71,
+    "share": 0.000657629651015034
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 70054.5,
+    "netWeightT": 6.796,
+    "classification": "H6",
+    "rank": 82,
+    "share": 4.0217718429941864e-05
+   },
+   "comtradeReporter": "Azerbaijan",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 17098.438000000002,
+   "topBuyers": [
+    {
+     "name": "Saudi Arabia",
+     "usd": 17071.466
+    },
+    {
+     "name": "Iceland",
+     "usd": 26.972
+    }
+   ],
+   "exportWeightToProduction": 0.00029880762742083203
+  },
+  {
+   "id": 44,
+   "name": "Bahamas",
+   "faoArea": "Bahamas",
+   "m49": "044",
+   "production": {
+    "tonnes": 2127.73,
+    "flag": "I",
+    "rank": 104,
+    "share": 6.152281694138201e-05
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 48,
+   "name": "Bahrain",
+   "faoArea": "Bahrain",
+   "m49": "048",
+   "production": {
+    "tonnes": 980.0,
+    "flag": "A",
+    "rank": 111,
+    "share": 2.8336471545992382e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 36276.25,
+    "netWeightT": 5.27849,
+    "classification": "H6",
+    "rank": 85,
+    "share": 2.082589995209699e-05
+   },
+   "comtradeReporter": "Bahrain",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": 0.005386214285714285
+  },
+  {
+   "id": 50,
+   "name": "Bangladesh",
+   "faoArea": "Bangladesh",
+   "m49": "050",
+   "production": {
+    "tonnes": 831384.0,
+    "flag": "A",
+    "rank": 7,
+    "share": 0.024039274550809522
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 5228720.883,
+   "topBuyers": [
+    {
+     "name": "Saudi Arabia",
+     "usd": 2254751.41
+    },
+    {
+     "name": "Qatar",
+     "usd": 1340463.649
+    },
+    {
+     "name": "Canada",
+     "usd": 482431.671
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 52,
+   "name": "Barbados",
+   "faoArea": "Barbados",
+   "m49": "052",
+   "production": {
+    "tonnes": 370.57,
+    "flag": "I",
+    "rank": 116,
+    "share": 1.0714945164079997e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 729.0,
+    "netWeightT": 1.258,
+    "classification": "H6",
+    "rank": 105,
+    "share": 4.185129682665299e-07
+   },
+   "comtradeReporter": "Barbados",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 6095.45,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 6095.45
+    }
+   ],
+   "exportWeightToProduction": 0.003394770218852039
+  },
+  {
+   "id": 56,
+   "name": "Belgium",
+   "faoArea": "Belgium",
+   "m49": "056",
+   "production": {
+    "tonnes": 58270.0,
+    "flag": "A",
+    "rank": 54,
+    "share": 0.0016848634663112001
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 14025379.602,
+    "netWeightT": 14029.066642000002,
+    "classification": "H6",
+    "rank": 14,
+    "share": 0.008051856307678823
+   },
+   "comtradeReporter": "Belgium",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 11003707.051,
+   "topBuyers": [
+    {
+     "name": "Netherlands",
+     "usd": 4173781.363
+    },
+    {
+     "name": "Germany",
+     "usd": 2369816.83
+    },
+    {
+     "name": "France",
+     "usd": 2142076.39
+    }
+   ],
+   "exportWeightToProduction": 0.24075968151707572
+  },
+  {
+   "id": 84,
+   "name": "Belize",
+   "faoArea": "Belize",
+   "m49": "084",
+   "production": {
+    "tonnes": 104.6,
+    "flag": "A",
+    "rank": 123,
+    "share": 3.024484616031432e-06
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 64,
+   "name": "Bhutan",
+   "faoArea": "Bhutan",
+   "m49": "064",
+   "production": {
+    "tonnes": 4681.7,
+    "flag": "A",
+    "rank": 94,
+    "share": 0.0001353702641192577
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 68,
+   "name": "Bolivia",
+   "faoArea": "Bolivia (Plurinational State of)",
+   "m49": "068",
+   "production": {
+    "tonnes": 24502.02,
+    "flag": "A",
+    "rank": 69,
+    "share": 0.0007084701964789146
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 6530.4,
+    "netWeightT": 3.1531,
+    "classification": "H6",
+    "rank": 96,
+    "share": 3.749049503385112e-06
+   },
+   "comtradeReporter": "Bolivia (Plurinational State of)",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 10282.074,
+   "topBuyers": [
+    {
+     "name": "Spain",
+     "usd": 10282.074
+    }
+   ],
+   "exportWeightToProduction": 0.00012868734904305848
+  },
+  {
+   "id": 70,
+   "name": "Bosnia and Herzegovina",
+   "faoArea": null,
+   "m49": "070",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 48472.453,
+    "netWeightT": 81.516,
+    "classification": "H6",
+    "rank": 84,
+    "share": 2.782764085622752e-05
+   },
+   "comtradeReporter": "Bosnia Herzegovina",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 48298.30099999999,
+   "topBuyers": [
+    {
+     "name": "Croatia",
+     "usd": 45621.0
+    },
+    {
+     "name": "Montenegro",
+     "usd": 2441.291
+    },
+    {
+     "name": "Germany",
+     "usd": 178.081
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 72,
+   "name": "Botswana",
+   "faoArea": null,
+   "m49": "072",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 1861.477,
+    "netWeightT": 1.9537,
+    "classification": "H6",
+    "rank": 102,
+    "share": 1.068658799217936e-06
+   },
+   "comtradeReporter": "Botswana",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 2508.512,
+   "topBuyers": [
+    {
+     "name": "Namibia",
+     "usd": 2508.512
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 76,
+   "name": "Brazil",
+   "faoArea": null,
+   "m49": "076",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 4060800.0,
+    "netWeightT": 8973.301,
+    "classification": "H6",
+    "rank": 22,
+    "share": 0.0023312722380476334
+   },
+   "comtradeReporter": "Brazil",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 4962299.689,
+   "topBuyers": [
+    {
+     "name": "Argentina",
+     "usd": 1971081.11
+    },
+    {
+     "name": "Netherlands",
+     "usd": 692400.945
+    },
+    {
+     "name": "Uruguay",
+     "usd": 647752.0
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 96,
+   "name": "Brunei Darussalam",
+   "faoArea": "Brunei Darussalam",
+   "m49": "096",
+   "production": {
+    "tonnes": 739.52,
+    "flag": "A",
+    "rank": 113,
+    "share": 2.1383048405808457e-05
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 100,
+   "name": "Bulgaria",
+   "faoArea": "Bulgaria",
+   "m49": "100",
+   "production": {
+    "tonnes": 15500.0,
+    "flag": "A",
+    "rank": 80,
+    "share": 0.0004481788866968183
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 1145683.284,
+    "netWeightT": 826.434,
+    "classification": "H6",
+    "rank": 40,
+    "share": 0.0006577274511388008
+   },
+   "comtradeReporter": "Bulgaria",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 152320.04,
+   "topBuyers": [
+    {
+     "name": "Romania",
+     "usd": 62372.44
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 43709.423
+    },
+    {
+     "name": "Hungary",
+     "usd": 38805.921
+    }
+   ],
+   "exportWeightToProduction": 0.05331832258064516
+  },
+  {
+   "id": 132,
+   "name": "Cabo Verde",
+   "faoArea": "Cabo Verde",
+   "m49": "132",
+   "production": {
+    "tonnes": 1514.0,
+    "flag": "A",
+    "rank": 107,
+    "share": 4.377695706186987e-05
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 116,
+   "name": "Cambodia",
+   "faoArea": null,
+   "m49": "116",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 831516.18,
+    "netWeightT": 3686.0,
+    "classification": "H6",
+    "rank": 45,
+    "share": 0.00047736667304999476
+   },
+   "comtradeReporter": "Cambodia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 23534.255,
+   "topBuyers": [
+    {
+     "name": "Norway",
+     "usd": 23534.255
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 120,
+   "name": "Cameroon",
+   "faoArea": "Cameroon",
+   "m49": "120",
+   "production": {
+    "tonnes": 183923.82,
+    "flag": "E",
+    "rank": 29,
+    "share": 0.005318114379653291
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 1124.593,
+   "topBuyers": [
+    {
+     "name": "France",
+     "usd": 1124.593
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 124,
+   "name": "Canada",
+   "faoArea": "Canada",
+   "m49": "124",
+   "production": {
+    "tonnes": 128448.0,
+    "flag": "A",
+    "rank": 37,
+    "share": 0.0037140439766730916
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 20251928.627,
+    "netWeightT": 30624.01,
+    "classification": "H6",
+    "rank": 11,
+    "share": 0.011626467438693663
+   },
+   "comtradeReporter": "Canada",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 20329808.541,
+   "topBuyers": [
+    {
+     "name": "United States",
+     "usd": 20160206.0
+    },
+    {
+     "name": "Canada",
+     "usd": 155864.448
+    },
+    {
+     "name": "Hong Kong SAR",
+     "usd": 13436.73
+    }
+   ],
+   "exportWeightToProduction": 0.23841562344294967
+  },
+  {
+   "id": 140,
+   "name": "Central African Republic",
+   "faoArea": "Central African Republic",
+   "m49": "140",
+   "production": {
+    "tonnes": 31766.76,
+    "flag": "I",
+    "rank": 65,
+    "share": 0.0009185284600493561
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 152,
+   "name": "Chile",
+   "faoArea": "Chile",
+   "m49": "152",
+   "production": {
+    "tonnes": 135166.52,
+    "flag": "I",
+    "rank": 36,
+    "share": 0.003908308416276337
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 224217.78,
+    "netWeightT": 76.44652,
+    "classification": "H6",
+    "rank": 72,
+    "share": 0.00012872160308083922
+   },
+   "comtradeReporter": "Chile",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 4443.987,
+   "topBuyers": [
+    {
+     "name": "Germany",
+     "usd": 3594.94
+    },
+    {
+     "name": "Jamaica",
+     "usd": 498.06
+    },
+    {
+     "name": "Bahrain",
+     "usd": 331.011
+    }
+   ],
+   "exportWeightToProduction": 0.0005655728948263225
+  },
+  {
+   "id": 156,
+   "name": "China (mainland)",
+   "faoArea": "China, mainland",
+   "m49": "156",
+   "production": {
+    "tonnes": 7652951.98,
+    "flag": "E",
+    "rank": 2,
+    "share": 0.22128332247358784
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 15811296.0,
+    "netWeightT": 27567.594,
+    "classification": "H6",
+    "rank": 13,
+    "share": 0.009077136380110715
+   },
+   "comtradeReporter": "China",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 11793270.964000002,
+   "topBuyers": [
+    {
+     "name": "Taiwan Province of China",
+     "usd": 3231499.06
+    },
+    {
+     "name": "Singapore",
+     "usd": 2361791.104
+    },
+    {
+     "name": "Kazakhstan",
+     "usd": 1463309.95
+    }
+   ],
+   "exportWeightToProduction": 0.003602217036255335
+  },
+  {
+   "id": 170,
+   "name": "Colombia",
+   "faoArea": "Colombia",
+   "m49": "170",
+   "production": {
+    "tonnes": 156277.91,
+    "flag": "A",
+    "rank": 34,
+    "share": 0.004518739336716489
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 124713.16,
+    "netWeightT": 158.39129,
+    "classification": "H6",
+    "rank": 79,
+    "share": 7.159681038888707e-05
+   },
+   "comtradeReporter": "Colombia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 13082.5,
+   "topBuyers": [
+    {
+     "name": "Germany",
+     "usd": 8208.66
+    },
+    {
+     "name": "Canada",
+     "usd": 2858.03
+    },
+    {
+     "name": "Slovakia",
+     "usd": 1742.633
+    }
+   ],
+   "exportWeightToProduction": 0.0010135232164289886
+  },
+  {
+   "id": 188,
+   "name": "Costa Rica",
+   "faoArea": null,
+   "m49": "188",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 10256180.14,
+    "netWeightT": 18104.81001,
+    "classification": "H6",
+    "rank": 17,
+    "share": 0.005887989565799224
+   },
+   "comtradeReporter": "Costa Rica",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 22553837.42,
+   "topBuyers": [
+    {
+     "name": "United States",
+     "usd": 16319705.0
+    },
+    {
+     "name": "Canada",
+     "usd": 4009149.579
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 1260529.126
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 191,
+   "name": "Croatia",
+   "faoArea": "Croatia",
+   "m49": "191",
+   "production": {
+    "tonnes": 5310.0,
+    "flag": "A",
+    "rank": 92,
+    "share": 0.00015353741215226485
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 807463.0,
+    "netWeightT": 702.8993,
+    "classification": "H6",
+    "rank": 46,
+    "share": 0.00046355793812811666
+   },
+   "comtradeReporter": "Croatia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 335564.62799999997,
+   "topBuyers": [
+    {
+     "name": "Slovenia",
+     "usd": 290709.975
+    },
+    {
+     "name": "Italy",
+     "usd": 30006.833
+    },
+    {
+     "name": "Czechia",
+     "usd": 11268.0
+    }
+   ],
+   "exportWeightToProduction": 0.1323727495291902
+  },
+  {
+   "id": 192,
+   "name": "Cuba",
+   "faoArea": "Cuba",
+   "m49": "192",
+   "production": {
+    "tonnes": 321401.34,
+    "flag": "I",
+    "rank": 19,
+    "share": 0.00929324482219778
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 196,
+   "name": "Cyprus",
+   "faoArea": "Cyprus",
+   "m49": "196",
+   "production": {
+    "tonnes": 2620.0,
+    "flag": "A",
+    "rank": 102,
+    "share": 7.575668923520413e-05
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 17786.701,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 10330.303
+    },
+    {
+     "name": "Germany",
+     "usd": 6746.356
+    },
+    {
+     "name": "Netherlands",
+     "usd": 710.042
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 203,
+   "name": "Czechia",
+   "faoArea": "Czechia",
+   "m49": "203",
+   "production": {
+    "tonnes": 16460.0,
+    "flag": "A",
+    "rank": 79,
+    "share": 0.0004759370629051374
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 2204094.0,
+    "netWeightT": 1609.02,
+    "classification": "H6",
+    "rank": 29,
+    "share": 0.0012653524311089836
+   },
+   "comtradeReporter": "Czechia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 483463.401,
+   "topBuyers": [
+    {
+     "name": "Slovakia",
+     "usd": 401898.689
+    },
+    {
+     "name": "Netherlands",
+     "usd": 46283.671
+    },
+    {
+     "name": "Portugal",
+     "usd": 10645.362
+    }
+   ],
+   "exportWeightToProduction": 0.09775334143377885
+  },
+  {
+   "id": 384,
+   "name": "Côte d'Ivoire",
+   "faoArea": "Côte d'Ivoire",
+   "m49": "384",
+   "production": {
+    "tonnes": 19497.7,
+    "flag": "I",
+    "rank": 75,
+    "share": 0.0005637714502676487
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 516.102,
+    "netWeightT": 0.618,
+    "classification": "H6",
+    "rank": 109,
+    "share": 2.962899587768074e-07
+   },
+   "comtradeReporter": "Côte d'Ivoire",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1523.4829999999997,
+   "topBuyers": [
+    {
+     "name": "Austria",
+     "usd": 836.68
+    },
+    {
+     "name": "France",
+     "usd": 673.241
+    },
+    {
+     "name": "Luxembourg",
+     "usd": 13.562
+    }
+   ],
+   "exportWeightToProduction": 3.1696046200321065e-05
+  },
+  {
+   "id": 180,
+   "name": "Democratic Republic of the Congo",
+   "faoArea": "Democratic Republic of the Congo",
+   "m49": "180",
+   "production": {
+    "tonnes": 29972.02,
+    "flag": "I",
+    "rank": 66,
+    "share": 0.0008666339713325659
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 863.5830000000001,
+   "topBuyers": [
+    {
+     "name": "Canada",
+     "usd": 310.122
+    },
+    {
+     "name": "France",
+     "usd": 264.101
+    },
+    {
+     "name": "Rwanda",
+     "usd": 190.58
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 208,
+   "name": "Denmark",
+   "faoArea": "Denmark",
+   "m49": "208",
+   "production": {
+    "tonnes": 7660.0,
+    "flag": "A",
+    "rank": 89,
+    "share": 0.00022148711432887924
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 540485.751,
+    "netWeightT": 342.42,
+    "classification": "H6",
+    "rank": 53,
+    "share": 0.0003102884718199926
+   },
+   "comtradeReporter": "Denmark",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 207870.719,
+   "topBuyers": [
+    {
+     "name": "Iceland",
+     "usd": 69667.762
+    },
+    {
+     "name": "Sweden",
+     "usd": 61603.173
+    },
+    {
+     "name": "Norway",
+     "usd": 39945.856
+    }
+   ],
+   "exportWeightToProduction": 0.0447023498694517
+  },
+  {
+   "id": 262,
+   "name": "Djibouti",
+   "faoArea": "Djibouti",
+   "m49": "262",
+   "production": {
+    "tonnes": 17.22,
+    "flag": "I",
+    "rank": 124,
+    "share": 4.979122857367232e-07
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 212,
+   "name": "Dominica",
+   "faoArea": "Dominica",
+   "m49": "212",
+   "production": {
+    "tonnes": 1839.85,
+    "flag": "E",
+    "rank": 106,
+    "share": 5.319883385091233e-05
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 7601.094,
+   "topBuyers": [
+    {
+     "name": "Montserrat",
+     "usd": 5946.796
+    },
+    {
+     "name": "Canada",
+     "usd": 1056.903
+    },
+    {
+     "name": "France",
+     "usd": 497.895
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 214,
+   "name": "Dominican Republic",
+   "faoArea": "Dominican Republic",
+   "m49": "214",
+   "production": {
+    "tonnes": 108167.18,
+    "flag": "A",
+    "rank": 41,
+    "share": 0.0031276287941635066
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 3307905.992,
+    "netWeightT": 5161.89865,
+    "classification": "H6",
+    "rank": 24,
+    "share": 0.0018990419142092731
+   },
+   "comtradeReporter": "Dominican Rep.",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 8732102.016,
+   "topBuyers": [
+    {
+     "name": "United States",
+     "usd": 6565123.0
+    },
+    {
+     "name": "Canada",
+     "usd": 1412671.691
+    },
+    {
+     "name": "Germany",
+     "usd": 479612.554
+    }
+   ],
+   "exportWeightToProduction": 0.04772148677630313
+  },
+  {
+   "id": 218,
+   "name": "Ecuador",
+   "faoArea": "Ecuador",
+   "m49": "218",
+   "production": {
+    "tonnes": 4257.51,
+    "flag": "E",
+    "rank": 95,
+    "share": 0.00012310490915487556
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 15535.46,
+    "netWeightT": 6.4790600000000005,
+    "classification": "H6",
+    "rank": 92,
+    "share": 8.918781176935452e-06
+   },
+   "comtradeReporter": "Ecuador",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 29764.392000000003,
+   "topBuyers": [
+    {
+     "name": "France",
+     "usd": 15007.205
+    },
+    {
+     "name": "United States",
+     "usd": 12875.0
+    },
+    {
+     "name": "Canada",
+     "usd": 1007.57
+    }
+   ],
+   "exportWeightToProduction": 0.0015217956035335207
+  },
+  {
+   "id": 818,
+   "name": "Egypt",
+   "faoArea": "Egypt",
+   "m49": "818",
+   "production": {
+    "tonnes": 1275382.72,
+    "flag": "I",
+    "rank": 3,
+    "share": 0.03687739403625548
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 6470207.057,
+    "netWeightT": 4597.375694,
+    "classification": "H6",
+    "rank": 19,
+    "share": 0.0037144932245872686
+   },
+   "comtradeReporter": "Egypt",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 6577277.899000001,
+   "topBuyers": [
+    {
+     "name": "Italy",
+     "usd": 3305747.952
+    },
+    {
+     "name": "Netherlands",
+     "usd": 971553.36
+    },
+    {
+     "name": "Germany",
+     "usd": 969955.459
+    }
+   ],
+   "exportWeightToProduction": 0.0036047028252037165
+  },
+  {
+   "id": 222,
+   "name": "El Salvador",
+   "faoArea": "El Salvador",
+   "m49": "222",
+   "production": {
+    "tonnes": 8544.85,
+    "flag": "E",
+    "rank": 88,
+    "share": 0.00024707234580589085
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 145590.0,
+    "netWeightT": 26.37036,
+    "classification": "H6",
+    "rank": 75,
+    "share": 8.358203436203579e-05
+   },
+   "comtradeReporter": "El Salvador",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 236.933,
+   "topBuyers": [
+    {
+     "name": "Luxembourg",
+     "usd": 236.933
+    }
+   ],
+   "exportWeightToProduction": 0.0030861115174637354
+  },
+  {
+   "id": 233,
+   "name": "Estonia",
+   "faoArea": "Estonia",
+   "m49": "233",
+   "production": {
+    "tonnes": 0.0,
+    "flag": "A",
+    "rank": 126,
+    "share": 0.0
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 179365.78,
+    "netWeightT": 52.653035,
+    "classification": "H6",
+    "rank": 74,
+    "share": 0.00010297243483297859
+   },
+   "comtradeReporter": "Estonia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 92935.62400000001,
+   "topBuyers": [
+    {
+     "name": "Netherlands",
+     "usd": 76720.209
+    },
+    {
+     "name": "Latvia",
+     "usd": 11112.714
+    },
+    {
+     "name": "Hungary",
+     "usd": 2520.009
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 242,
+   "name": "Fiji",
+   "faoArea": "Fiji",
+   "m49": "242",
+   "production": {
+    "tonnes": 1977.26,
+    "flag": "E",
+    "rank": 105,
+    "share": 5.7172011968396835e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 6842.128,
+    "netWeightT": 6.49209,
+    "classification": "H6",
+    "rank": 95,
+    "share": 3.928010011714041e-06
+   },
+   "comtradeReporter": "Fiji",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 6257.963000000001,
+   "topBuyers": [
+    {
+     "name": "Canada",
+     "usd": 4579.1
+    },
+    {
+     "name": "New Zealand",
+     "usd": 1678.863
+    }
+   ],
+   "exportWeightToProduction": 0.0032833769964496326
+  },
+  {
+   "id": 246,
+   "name": "Finland",
+   "faoArea": "Finland",
+   "m49": "246",
+   "production": {
+    "tonnes": 2960.0,
+    "flag": "A",
+    "rank": 101,
+    "share": 8.558770997565046e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 31979.049,
+    "netWeightT": 19.461,
+    "classification": "H6",
+    "rank": 86,
+    "share": 1.8358911823499046e-05
+   },
+   "comtradeReporter": "Finland",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 30110.846,
+   "topBuyers": [
+    {
+     "name": "Estonia",
+     "usd": 26755.93
+    },
+    {
+     "name": "Netherlands",
+     "usd": 2272.999
+    },
+    {
+     "name": "Romania",
+     "usd": 1007.8
+    }
+   ],
+   "exportWeightToProduction": 0.0065746621621621615
+  },
+  {
+   "id": 251,
+   "name": "France",
+   "faoArea": "France",
+   "m49": "250",
+   "production": {
+    "tonnes": 379910.0,
+    "flag": "A",
+    "rank": 17,
+    "share": 0.010985009086773434
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 43238694.328,
+    "netWeightT": null,
+    "classification": "H6",
+    "rank": 8,
+    "share": 0.0248229825887249
+   },
+   "comtradeReporter": "France",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 19082663.042,
+   "topBuyers": [
+    {
+     "name": "Italy",
+     "usd": 9945677.992
+    },
+    {
+     "name": "Belgium",
+     "usd": 2152773.252
+    },
+    {
+     "name": "Switzerland",
+     "usd": 1106480.529
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 258,
+   "name": "French Polynesia",
+   "faoArea": "French Polynesia",
+   "m49": "258",
+   "production": {
+    "tonnes": 122.27,
+    "flag": "I",
+    "rank": 122,
+    "share": 3.535408546865805e-06
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 268,
+   "name": "Georgia",
+   "faoArea": "Georgia",
+   "m49": "268",
+   "production": {
+    "tonnes": 3300.0,
+    "flag": "A",
+    "rank": 100,
+    "share": 9.54187307160968e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 455837.69,
+    "netWeightT": 582.418,
+    "classification": "H6",
+    "rank": 56,
+    "share": 0.0002616927087649634
+   },
+   "comtradeReporter": "Georgia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 55229.53,
+   "topBuyers": [
+    {
+     "name": "Azerbaijan",
+     "usd": 51021.0
+    },
+    {
+     "name": "Armenia",
+     "usd": 4208.53
+    }
+   ],
+   "exportWeightToProduction": 0.17649030303030303
+  },
+  {
+   "id": 276,
+   "name": "Germany",
+   "faoArea": "Germany",
+   "m49": "276",
+   "production": {
+    "tonnes": 161520.0,
+    "flag": "A",
+    "rank": 33,
+    "share": 0.004670313147049684
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 11606598.669,
+    "netWeightT": 6624.751249,
+    "classification": "H6",
+    "rank": 16,
+    "share": 0.006663253855201022
+   },
+   "comtradeReporter": "Germany",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 47975724.474999994,
+   "topBuyers": [
+    {
+     "name": "Poland",
+     "usd": 11564719.0
+    },
+    {
+     "name": "Netherlands",
+     "usd": 10486416.869
+    },
+    {
+     "name": "Belgium",
+     "usd": 4977978.065
+    }
+   ],
+   "exportWeightToProduction": 0.04101505230931154
+  },
+  {
+   "id": 288,
+   "name": "Ghana",
+   "faoArea": null,
+   "m49": "288",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 6144.222,
+    "netWeightT": 3.6721999999999997,
+    "classification": "H6",
+    "rank": 98,
+    "share": 3.527347855841584e-06
+   },
+   "comtradeReporter": "Ghana",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 825653.253,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 793995.117
+    },
+    {
+     "name": "Ireland",
+     "usd": 26835.459
+    },
+    {
+     "name": "Germany",
+     "usd": 2756.062
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 300,
+   "name": "Greece",
+   "faoArea": "Greece",
+   "m49": "300",
+   "production": {
+    "tonnes": 45320.0,
+    "flag": "A",
+    "rank": 55,
+    "share": 0.0013104172351677294
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 1518730.236,
+    "netWeightT": 2825.444,
+    "classification": "H6",
+    "rank": 34,
+    "share": 0.0008718906708703532
+   },
+   "comtradeReporter": "Greece",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1588617.58,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 968991.346
+    },
+    {
+     "name": "Bulgaria",
+     "usd": 161893.601
+    },
+    {
+     "name": "Cyprus",
+     "usd": 101395.237
+    }
+   ],
+   "exportWeightToProduction": 0.06234430714916152
+  },
+  {
+   "id": 308,
+   "name": "Grenada",
+   "faoArea": "Grenada",
+   "m49": "308",
+   "production": {
+    "tonnes": 179.09,
+    "flag": "E",
+    "rank": 119,
+    "share": 5.17834560119569e-06
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 320,
+   "name": "Guatemala",
+   "faoArea": "Guatemala",
+   "m49": "320",
+   "production": {
+    "tonnes": 107817.97,
+    "flag": "I",
+    "rank": 42,
+    "share": 0.0031175314684200616
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 1307130.0,
+    "netWeightT": 5525.992,
+    "classification": "H6",
+    "rank": 37,
+    "share": 0.0007504126971333735
+   },
+   "comtradeReporter": "Guatemala",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 6170141.544,
+   "topBuyers": [
+    {
+     "name": "United States",
+     "usd": 4544230.0
+    },
+    {
+     "name": "Canada",
+     "usd": 879110.698
+    },
+    {
+     "name": "El Salvador",
+     "usd": 286648.09
+    }
+   ],
+   "exportWeightToProduction": 0.051252977588058836
+  },
+  {
+   "id": 328,
+   "name": "Guyana",
+   "faoArea": "Guyana",
+   "m49": "328",
+   "production": {
+    "tonnes": 88103.59,
+    "flag": "I",
+    "rank": 44,
+    "share": 0.00254749476646406
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 307746.239,
+    "netWeightT": 473.04495000000003,
+    "classification": "H5",
+    "rank": 62,
+    "share": 0.0001766746117376556
+   },
+   "comtradeReporter": "Guyana",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 222920.165,
+   "topBuyers": [
+    {
+     "name": "Barbados",
+     "usd": 198241.5
+    },
+    {
+     "name": "Canada",
+     "usd": 24678.665
+    }
+   ],
+   "exportWeightToProduction": 0.005369190404159467
+  },
+  {
+   "id": 332,
+   "name": "Haiti",
+   "faoArea": "Haiti",
+   "m49": "332",
+   "production": {
+    "tonnes": 657.78,
+    "flag": "E",
+    "rank": 114,
+    "share": 1.901955536073762e-05
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 32880.685,
+   "topBuyers": [
+    {
+     "name": "United States",
+     "usd": 28646.0
+    },
+    {
+     "name": "Canada",
+     "usd": 4234.685
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 340,
+   "name": "Honduras",
+   "faoArea": "Honduras",
+   "m49": "340",
+   "production": {
+    "tonnes": 17747.74,
+    "flag": "E",
+    "rank": 77,
+    "share": 0.0005131717648119091
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 1963645.07,
+    "netWeightT": 8776.55932,
+    "classification": "H6",
+    "rank": 30,
+    "share": 0.0011273126568829052
+   },
+   "comtradeReporter": "Honduras",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 8161319.035,
+   "topBuyers": [
+    {
+     "name": "United States",
+     "usd": 6758617.0
+    },
+    {
+     "name": "Canada",
+     "usd": 1231986.978
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 57999.359
+    }
+   ],
+   "exportWeightToProduction": 0.49451701005311094
+  },
+  {
+   "id": 344,
+   "name": "Hong Kong SAR",
+   "faoArea": "China, Hong Kong SAR",
+   "m49": "344",
+   "production": {
+    "tonnes": 243.21,
+    "flag": "I",
+    "rank": 117,
+    "share": 7.032360453776335e-06
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 251028.037,
+    "netWeightT": 216.751,
+    "classification": "H6",
+    "rank": 68,
+    "share": 0.00014411315347460948
+   },
+   "comtradeReporter": "China, Hong Kong SAR",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 2067.9370000000004,
+   "topBuyers": [
+    {
+     "name": "Canada",
+     "usd": 1181.142
+    },
+    {
+     "name": "Macao SAR",
+     "usd": 593.455
+    },
+    {
+     "name": "Zimbabwe",
+     "usd": 293.34
+    }
+   ],
+   "exportWeightToProduction": 0.8912092430409934
+  },
+  {
+   "id": 348,
+   "name": "Hungary",
+   "faoArea": "Hungary",
+   "m49": "348",
+   "production": {
+    "tonnes": 32580.0,
+    "flag": "A",
+    "rank": 63,
+    "share": 0.0009420431050698284
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 1469042.358,
+    "netWeightT": 732.6673000000001,
+    "classification": "H6",
+    "rank": 35,
+    "share": 0.0008433652644113063
+   },
+   "comtradeReporter": "Hungary",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 932777.566,
+   "topBuyers": [
+    {
+     "name": "Slovakia",
+     "usd": 490810.831
+    },
+    {
+     "name": "Austria",
+     "usd": 340017.915
+    },
+    {
+     "name": "Poland",
+     "usd": 61116.0
+    }
+   ],
+   "exportWeightToProduction": 0.022488253529772868
+  },
+  {
+   "id": 352,
+   "name": "Iceland",
+   "faoArea": null,
+   "m49": "352",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 603.625,
+    "netWeightT": 0.078,
+    "classification": "H6",
+    "rank": 106,
+    "share": 3.4653620091890826e-07
+   },
+   "comtradeReporter": "Iceland",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1353.235,
+   "topBuyers": [
+    {
+     "name": "Germany",
+     "usd": 669.683
+    },
+    {
+     "name": "Denmark",
+     "usd": 632.68
+    },
+    {
+     "name": "France",
+     "usd": 50.872
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 699,
+   "name": "India",
+   "faoArea": "India",
+   "m49": "356",
+   "production": {
+    "tonnes": 9330691.0,
+    "flag": "A",
+    "rank": 1,
+    "share": 0.2697947551285176
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 13701596.692,
+    "netWeightT": 19292.395,
+    "classification": "H6",
+    "rank": 15,
+    "share": 0.00786597517360739
+   },
+   "comtradeReporter": "India",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 16065787.391000003,
+   "topBuyers": [
+    {
+     "name": "Qatar",
+     "usd": 5554847.103
+    },
+    {
+     "name": "Singapore",
+     "usd": 3272782.447
+    },
+    {
+     "name": "Canada",
+     "usd": 1215936.771
+    }
+   ],
+   "exportWeightToProduction": 0.002067627681594
+  },
+  {
+   "id": 360,
+   "name": "Indonesia",
+   "faoArea": "Indonesia",
+   "m49": "360",
+   "production": {
+    "tonnes": 514701.68,
+    "flag": "E",
+    "rank": 13,
+    "share": 0.014882479091831099
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 345286.301,
+    "netWeightT": 1288.8789199999999,
+    "classification": "H6",
+    "rank": 59,
+    "share": 0.0001982260558755562
+   },
+   "comtradeReporter": "Indonesia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 217748.38900000002,
+   "topBuyers": [
+    {
+     "name": "Singapore",
+     "usd": 187550.328
+    },
+    {
+     "name": "Malaysia",
+     "usd": 29075.733
+    },
+    {
+     "name": "Macao SAR",
+     "usd": 1049.536
+    }
+   ],
+   "exportWeightToProduction": 0.002504128061132421
+  },
+  {
+   "id": 364,
+   "name": "Iran",
+   "faoArea": "Iran (Islamic Republic of)",
+   "m49": "364",
+   "production": {
+    "tonnes": 188927.99,
+    "flag": "E",
+    "rank": 28,
+    "share": 0.005462808788649524
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 2490125.203,
+   "topBuyers": [
+    {
+     "name": "Oman",
+     "usd": 866730.818
+    },
+    {
+     "name": "Qatar",
+     "usd": 845054.774
+    },
+    {
+     "name": "Iraq",
+     "usd": 479769.0
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 368,
+   "name": "Iraq",
+   "faoArea": "Iraq",
+   "m49": "368",
+   "production": {
+    "tonnes": 40164.0,
+    "flag": "A",
+    "rank": 57,
+    "share": 0.001161332697115549
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 372,
+   "name": "Ireland",
+   "faoArea": "Ireland",
+   "m49": "372",
+   "production": {
+    "tonnes": 800.0,
+    "flag": "A",
+    "rank": 112,
+    "share": 2.313181350693256e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 990780.766,
+    "netWeightT": 423.425,
+    "classification": "H6",
+    "rank": 42,
+    "share": 0.0005687991759671415
+   },
+   "comtradeReporter": "Ireland",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1354525.753,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 1291055.839
+    },
+    {
+     "name": "Netherlands",
+     "usd": 58713.728
+    },
+    {
+     "name": "Spain",
+     "usd": 4454.517
+    }
+   ],
+   "exportWeightToProduction": 0.52928125
+  },
+  {
+   "id": 376,
+   "name": "Israel",
+   "faoArea": "Israel",
+   "m49": "376",
+   "production": {
+    "tonnes": 6888.0,
+    "flag": "A",
+    "rank": 91,
+    "share": 0.00019916491429468932
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 282000.0,
+    "netWeightT": 46.006,
+    "classification": "H6",
+    "rank": 65,
+    "share": 0.00016189390541997454
+   },
+   "comtradeReporter": "Israel",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 298396.572,
+   "topBuyers": [
+    {
+     "name": "Germany",
+     "usd": 96502.1
+    },
+    {
+     "name": "Luxembourg",
+     "usd": 61069.432
+    },
+    {
+     "name": "Switzerland",
+     "usd": 58579.556
+    }
+   ],
+   "exportWeightToProduction": 0.006679152148664344
+  },
+  {
+   "id": 380,
+   "name": "Italy",
+   "faoArea": "Italy",
+   "m49": "380",
+   "production": {
+    "tonnes": 583000.0,
+    "flag": "A",
+    "rank": 10,
+    "share": 0.016857309093177102
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 54818162.391,
+    "netWeightT": 31506.304,
+    "classification": "H6",
+    "rank": 6,
+    "share": 0.03147066098377787
+   },
+   "comtradeReporter": "Italy",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 51347770.22900002,
+   "topBuyers": [
+    {
+     "name": "Austria",
+     "usd": 12104331.039
+    },
+    {
+     "name": "Germany",
+     "usd": 10281909.039
+    },
+    {
+     "name": "Switzerland",
+     "usd": 7074681.54
+    }
+   ],
+   "exportWeightToProduction": 0.05404168782161235
+  },
+  {
+   "id": 388,
+   "name": "Jamaica",
+   "faoArea": "Jamaica",
+   "m49": "388",
+   "production": {
+    "tonnes": 60526.0,
+    "flag": "A",
+    "rank": 53,
+    "share": 0.00175009518040075
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 541765.0,
+    "netWeightT": 285.49689,
+    "classification": "H6",
+    "rank": 52,
+    "share": 0.0003110228782618883
+   },
+   "comtradeReporter": "Jamaica",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 388647.259,
+   "topBuyers": [
+    {
+     "name": "Canada",
+     "usd": 221304.897
+    },
+    {
+     "name": "Cayman Isds",
+     "usd": 149045.946
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 17147.416
+    }
+   ],
+   "exportWeightToProduction": 0.004716929749198692
+  },
+  {
+   "id": 392,
+   "name": "Japan",
+   "faoArea": "Japan",
+   "m49": "392",
+   "production": {
+    "tonnes": 163619.84,
+    "flag": "I",
+    "rank": 31,
+    "share": 0.00473102953114268
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 911160.494,
+    "netWeightT": 703.005,
+    "classification": "H6",
+    "rank": 43,
+    "share": 0.0005230898256668555
+   },
+   "comtradeReporter": "Japan",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1480083.496,
+   "topBuyers": [
+    {
+     "name": "Hong Kong SAR",
+     "usd": 805086.759
+    },
+    {
+     "name": "Singapore",
+     "usd": 313228.977
+    },
+    {
+     "name": "South Korea",
+     "usd": 220246.0
+    }
+   ],
+   "exportWeightToProduction": 0.004296575525315267
+  },
+  {
+   "id": 400,
+   "name": "Jordan",
+   "faoArea": "Jordan",
+   "m49": "400",
+   "production": {
+    "tonnes": 74390.0,
+    "flag": "A",
+    "rank": 48,
+    "share": 0.002150969508475891
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 464840.9,
+    "netWeightT": 739.94,
+    "classification": "H6",
+    "rank": 55,
+    "share": 0.0002668613783685668
+   },
+   "comtradeReporter": "Jordan",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1623747.571,
+   "topBuyers": [
+    {
+     "name": "Israel",
+     "usd": 903000.0
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 442281.576
+    },
+    {
+     "name": "Sweden",
+     "usd": 136075.826
+    }
+   ],
+   "exportWeightToProduction": 0.009946767038580455
+  },
+  {
+   "id": 398,
+   "name": "Kazakhstan",
+   "faoArea": "Kazakhstan",
+   "m49": "398",
+   "production": {
+    "tonnes": 166171.52,
+    "flag": "A",
+    "rank": 30,
+    "share": 0.004804810763504392
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 119643.21,
+    "netWeightT": 383.1896,
+    "classification": "H6",
+    "rank": 80,
+    "share": 6.868619334709983e-05
+   },
+   "comtradeReporter": "Kazakhstan",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 14422.0,
+   "topBuyers": [
+    {
+     "name": "Uzbekistan",
+     "usd": 12490.0
+    },
+    {
+     "name": "Kyrgyzstan",
+     "usd": 1932.0
+    }
+   ],
+   "exportWeightToProduction": 0.0023059884148619453
+  },
+  {
+   "id": 404,
+   "name": "Kenya",
+   "faoArea": null,
+   "m49": "404",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 309072.633,
+    "netWeightT": 294.8809,
+    "classification": "H6",
+    "rank": 61,
+    "share": 0.00017743608374044147
+   },
+   "comtradeReporter": "Kenya",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1214132.173,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 729113.963
+    },
+    {
+     "name": "Netherlands",
+     "usd": 262361.447
+    },
+    {
+     "name": "Norway",
+     "usd": 75692.736
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 414,
+   "name": "Kuwait",
+   "faoArea": "Kuwait",
+   "m49": "414",
+   "production": {
+    "tonnes": 12353.4,
+    "flag": "A",
+    "rank": 83,
+    "share": 0.00035719568122067583
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 7213.0,
+    "netWeightT": 5.115031,
+    "classification": "H6",
+    "rank": 94,
+    "share": 4.140924609199561e-06
+   },
+   "comtradeReporter": "Kuwait",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": 0.00041405855877734067
+  },
+  {
+   "id": 417,
+   "name": "Kyrgyzstan",
+   "faoArea": "Kyrgyzstan",
+   "m49": "417",
+   "production": {
+    "tonnes": 3585.92,
+    "flag": "E",
+    "rank": 98,
+    "share": 0.0001036860408634745
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 328120.0,
+    "netWeightT": 779.2,
+    "classification": "H6",
+    "rank": 60,
+    "share": 0.00018837102215036187
+   },
+   "comtradeReporter": "Kyrgyzstan",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 149380.0,
+   "topBuyers": [
+    {
+     "name": "Kazakhstan",
+     "usd": 149380.0
+    }
+   ],
+   "exportWeightToProduction": 0.2172943066214528
+  },
+  {
+   "id": 428,
+   "name": "Latvia",
+   "faoArea": "Latvia",
+   "m49": "428",
+   "production": {
+    "tonnes": 3400.0,
+    "flag": "A",
+    "rank": 99,
+    "share": 9.831020740446337e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 1241166.022,
+    "netWeightT": 1077.171,
+    "classification": "H6",
+    "rank": 38,
+    "share": 0.000712543314099837
+   },
+   "comtradeReporter": "Latvia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 473148.29600000003,
+   "topBuyers": [
+    {
+     "name": "Lithuania",
+     "usd": 313568.0
+    },
+    {
+     "name": "Estonia",
+     "usd": 151880.16
+    },
+    {
+     "name": "Netherlands",
+     "usd": 4670.472
+    }
+   ],
+   "exportWeightToProduction": 0.316815
+  },
+  {
+   "id": 422,
+   "name": "Lebanon",
+   "faoArea": "Lebanon",
+   "m49": "422",
+   "production": {
+    "tonnes": 28623.91,
+    "flag": "I",
+    "rank": 67,
+    "share": 0.0008276536849490274
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 225809.0,
+    "netWeightT": 157.137875,
+    "classification": "H5",
+    "rank": 71,
+    "share": 0.00012963510953538664
+   },
+   "comtradeReporter": "Lebanon",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 152733.189,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 108877.213
+    },
+    {
+     "name": "France",
+     "usd": 19142.981
+    },
+    {
+     "name": "Kuwait",
+     "usd": 10432.0
+    }
+   ],
+   "exportWeightToProduction": 0.005489741792787918
+  },
+  {
+   "id": 426,
+   "name": "Lesotho",
+   "faoArea": null,
+   "m49": "426",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 6165.321,
+    "netWeightT": 4.1,
+    "classification": "H6",
+    "rank": 97,
+    "share": 3.5394606200630595e-06
+   },
+   "comtradeReporter": "Lesotho",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 5895.554999999999,
+   "topBuyers": [
+    {
+     "name": "South Africa",
+     "usd": 5822.249
+    },
+    {
+     "name": "Botswana",
+     "usd": 73.306
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 434,
+   "name": "Libya",
+   "faoArea": "Libya",
+   "m49": "434",
+   "production": {
+    "tonnes": 35429.37,
+    "flag": "I",
+    "rank": 59,
+    "share": 0.001024431974385139
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 136580.794,
+   "topBuyers": [
+    {
+     "name": "Tunisia",
+     "usd": 136580.794
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 440,
+   "name": "Lithuania",
+   "faoArea": "Lithuania",
+   "m49": "440",
+   "production": {
+    "tonnes": 18920.0,
+    "flag": "A",
+    "rank": 76,
+    "share": 0.000547067389438955
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 260552.0,
+    "netWeightT": 185.45977100000002,
+    "classification": "H6",
+    "rank": 67,
+    "share": 0.0001495807831382454
+   },
+   "comtradeReporter": "Lithuania",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 131898.427,
+   "topBuyers": [
+    {
+     "name": "Latvia",
+     "usd": 118945.339
+    },
+    {
+     "name": "Estonia",
+     "usd": 5851.47
+    },
+    {
+     "name": "Netherlands",
+     "usd": 3936.618
+    }
+   ],
+   "exportWeightToProduction": 0.009802313477801269
+  },
+  {
+   "id": 442,
+   "name": "Luxembourg",
+   "faoArea": "Luxembourg",
+   "m49": "442",
+   "production": {
+    "tonnes": 4230.0,
+    "flag": "A",
+    "rank": 96,
+    "share": 0.0001223094639179059
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 1058273.769,
+    "netWeightT": 317.43151,
+    "classification": "H6",
+    "rank": 41,
+    "share": 0.0006075463598117943
+   },
+   "comtradeReporter": "Luxembourg",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 511104.14699999994,
+   "topBuyers": [
+    {
+     "name": "Germany",
+     "usd": 350602.176
+    },
+    {
+     "name": "Luxembourg",
+     "usd": 58480.572
+    },
+    {
+     "name": "Oman",
+     "usd": 56842.653
+    }
+   ],
+   "exportWeightToProduction": 0.07504291016548463
+  },
+  {
+   "id": 450,
+   "name": "Madagascar",
+   "faoArea": null,
+   "m49": "450",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 138668.258,
+    "netWeightT": 74.173,
+    "classification": "H6",
+    "rank": 76,
+    "share": 7.960831860072562e-05
+   },
+   "comtradeReporter": "Madagascar",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 352.303,
+   "topBuyers": [
+    {
+     "name": "France",
+     "usd": 277.089
+    },
+    {
+     "name": "Rwanda",
+     "usd": 59.487
+    },
+    {
+     "name": "Luxembourg",
+     "usd": 15.727
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 454,
+   "name": "Malawi",
+   "faoArea": "Malawi",
+   "m49": "454",
+   "production": {
+    "tonnes": 421379.99,
+    "flag": "E",
+    "rank": 16,
+    "share": 0.012184104180291382
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 2.903,
+    "netWeightT": 0.011,
+    "classification": "H6",
+    "rank": 113,
+    "share": 1.6665886788446314e-09
+   },
+   "comtradeReporter": "Malawi",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 15.058,
+   "topBuyers": [
+    {
+     "name": "South Africa",
+     "usd": 15.058
+    }
+   ],
+   "exportWeightToProduction": 2.6104704212461535e-08
+  },
+  {
+   "id": 458,
+   "name": "Malaysia",
+   "faoArea": "Malaysia",
+   "m49": "458",
+   "production": {
+    "tonnes": 74025.58,
+    "flag": "A",
+    "rank": 49,
+    "share": 0.0021404323891281458
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 5188537.196,
+    "netWeightT": 8780.788550000001,
+    "classification": "H6",
+    "rank": 21,
+    "share": 0.0029786969860895176
+   },
+   "comtradeReporter": "Malaysia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 14122636.924999999,
+   "topBuyers": [
+    {
+     "name": "Singapore",
+     "usd": 14117021.723
+    },
+    {
+     "name": "Brunei Darussalam",
+     "usd": 5535.374
+    },
+    {
+     "name": "Maldives",
+     "usd": 79.828
+    }
+   ],
+   "exportWeightToProduction": 0.11861830126829133
+  },
+  {
+   "id": 462,
+   "name": "Maldives",
+   "faoArea": null,
+   "m49": "462",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 0.5,
+    "netWeightT": 0.004,
+    "classification": "H6",
+    "rank": 114,
+    "share": 2.870459315956995e-10
+   },
+   "comtradeReporter": "Maldives",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 466,
+   "name": "Mali",
+   "faoArea": "Mali",
+   "m49": "466",
+   "production": {
+    "tonnes": 62095.91,
+    "flag": "A",
+    "rank": 52,
+    "share": 0.0017954887620790856
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 1004.121,
+   "topBuyers": [
+    {
+     "name": "France",
+     "usd": 800.962
+    },
+    {
+     "name": "Canada",
+     "usd": 203.159
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 470,
+   "name": "Malta",
+   "faoArea": "Malta",
+   "m49": "470",
+   "production": {
+    "tonnes": 4150.0,
+    "flag": "A",
+    "rank": 97,
+    "share": 0.00011999628256721265
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 4.33,
+    "netWeightT": 0.001,
+    "classification": "H6",
+    "rank": 112,
+    "share": 2.485817767618758e-09
+   },
+   "comtradeReporter": "Malta",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 2011.063,
+   "topBuyers": [
+    {
+     "name": "Netherlands",
+     "usd": 2011.063
+    }
+   ],
+   "exportWeightToProduction": 2.4096385542168674e-07
+  },
+  {
+   "id": 478,
+   "name": "Mauritania",
+   "faoArea": null,
+   "m49": "478",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 26802.754,
+    "netWeightT": 91.512,
+    "classification": "H6",
+    "rank": 87,
+    "share": 1.5387242982520725e-05
+   },
+   "comtradeReporter": "Mauritania",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 63386.301,
+   "topBuyers": [
+    {
+     "name": "France",
+     "usd": 52345.001
+    },
+    {
+     "name": "Spain",
+     "usd": 9168.906
+    },
+    {
+     "name": "Germany",
+     "usd": 1839.654
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 480,
+   "name": "Mauritius",
+   "faoArea": "Mauritius",
+   "m49": "480",
+   "production": {
+    "tonnes": 34401.2,
+    "flag": "A",
+    "rank": 60,
+    "share": 0.0009947026785183603
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 8223.6,
+    "netWeightT": 4.622,
+    "classification": "H6",
+    "rank": 93,
+    "share": 4.721101846140789e-06
+   },
+   "comtradeReporter": "Mauritius",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 113051.302,
+   "topBuyers": [
+    {
+     "name": "United States",
+     "usd": 58390.0
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 29498.121
+    },
+    {
+     "name": "France",
+     "usd": 25163.181
+    }
+   ],
+   "exportWeightToProduction": 0.00013435577828680397
+  },
+  {
+   "id": 484,
+   "name": "Mexico",
+   "faoArea": "Mexico",
+   "m49": "484",
+   "production": {
+    "tonnes": 568591.2,
+    "flag": "A",
+    "rank": 11,
+    "share": 0.016440682000103738
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 564115955.0,
+    "netWeightT": 502226.6,
+    "classification": "H6",
+    "rank": 2,
+    "share": 0.3238543796619454
+   },
+   "comtradeReporter": "Mexico",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 592697158.617,
+   "topBuyers": [
+    {
+     "name": "United States",
+     "usd": 514981340.0
+    },
+    {
+     "name": "Canada",
+     "usd": 45860481.168
+    },
+    {
+     "name": "Japan",
+     "usd": 30473848.914
+    }
+   ],
+   "exportWeightToProduction": 0.8832824004311006
+  },
+  {
+   "id": 498,
+   "name": "Moldova",
+   "faoArea": "Republic of Moldova",
+   "m49": "498",
+   "production": {
+    "tonnes": 24332.0,
+    "flag": "A",
+    "rank": 70,
+    "share": 0.0007035541078133537
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 499,
+   "name": "Montenegro",
+   "faoArea": null,
+   "m49": "499",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 802.062,
+    "netWeightT": 1.644,
+    "classification": "H6",
+    "rank": 104,
+    "share": 4.604572679750199e-07
+   },
+   "comtradeReporter": "Montenegro",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 2771.543,
+   "topBuyers": [
+    {
+     "name": "Serbia",
+     "usd": 2615.0
+    },
+    {
+     "name": "Bahrain",
+     "usd": 156.543
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 504,
+   "name": "Morocco",
+   "faoArea": "Morocco",
+   "m49": "504",
+   "production": {
+    "tonnes": 282472.42,
+    "flag": "A",
+    "rank": 22,
+    "share": 0.008167624175364908
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 48123258.702,
+    "netWeightT": 45735.70272,
+    "classification": "H6",
+    "rank": 7,
+    "share": 0.027627171251072887
+   },
+   "comtradeReporter": "Morocco",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 70176373.825,
+   "topBuyers": [
+    {
+     "name": "France",
+     "usd": 33768078.532
+    },
+    {
+     "name": "Spain",
+     "usd": 14907847.65
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 9084953.388
+    }
+   ],
+   "exportWeightToProduction": 0.1619121000202427
+  },
+  {
+   "id": 508,
+   "name": "Mozambique",
+   "faoArea": "Mozambique",
+   "m49": "508",
+   "production": {
+    "tonnes": 1075.01,
+    "flag": "E",
+    "rank": 109,
+    "share": 3.1083663547609464e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 2388.8,
+    "netWeightT": 0.976,
+    "classification": "H6",
+    "rank": 101,
+    "share": 1.3713906427916142e-06
+   },
+   "comtradeReporter": "Mozambique",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 29.225,
+   "topBuyers": [
+    {
+     "name": "Canada",
+     "usd": 29.225
+    }
+   ],
+   "exportWeightToProduction": 0.0009078985311764541
+  },
+  {
+   "id": 104,
+   "name": "Myanmar",
+   "faoArea": null,
+   "m49": "104",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 1746902.619,
+    "netWeightT": 6259.0,
+    "classification": "H6",
+    "rank": 33,
+    "share": 0.0010028825793556447
+   },
+   "comtradeReporter": "Myanmar",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 600321.0,
+   "topBuyers": [
+    {
+     "name": "China (mainland)",
+     "usd": 600321.0
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 516,
+   "name": "Namibia",
+   "faoArea": null,
+   "m49": "516",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 1851983.489,
+    "netWeightT": 2652.343,
+    "classification": "H6",
+    "rank": 31,
+    "share": 0.0010632086517997179
+   },
+   "comtradeReporter": "Namibia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 2418824.559,
+   "topBuyers": [
+    {
+     "name": "South Africa",
+     "usd": 1342897.981
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 1075470.205
+    },
+    {
+     "name": "Germany",
+     "usd": 204.9
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 520,
+   "name": "Nauru",
+   "faoArea": "Nauru",
+   "m49": "520",
+   "production": {
+    "tonnes": 0.31,
+    "flag": "I",
+    "rank": 125,
+    "share": 8.963577733936366e-09
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 528,
+   "name": "Netherlands",
+   "faoArea": "Netherlands (Kingdom of the)",
+   "m49": "528",
+   "production": {
+    "tonnes": 39650.0,
+    "flag": "A",
+    "rank": 58,
+    "share": 0.0011464705069373449
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 72893413.221,
+    "netWeightT": 44038.192,
+    "classification": "H6",
+    "rank": 3,
+    "share": 0.04184751541042445
+   },
+   "comtradeReporter": "Netherlands",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 60059493.09400001,
+   "topBuyers": [
+    {
+     "name": "Germany",
+     "usd": 31407258.483
+    },
+    {
+     "name": "Belgium",
+     "usd": 8895039.363
+    },
+    {
+     "name": "Sweden",
+     "usd": 2775549.413
+    }
+   ],
+   "exportWeightToProduction": 1.1106731904161413
+  },
+  {
+   "id": 554,
+   "name": "New Zealand",
+   "faoArea": "New Zealand",
+   "m49": "554",
+   "production": {
+    "tonnes": 92392.37,
+    "flag": "I",
+    "rank": 43,
+    "share": 0.002671503840379388
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 34798976.734,
+    "netWeightT": 63783.833,
+    "classification": "H6",
+    "rank": 9,
+    "share": 0.019977809390376206
+   },
+   "comtradeReporter": "New Zealand",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 39983006.89499999,
+   "topBuyers": [
+    {
+     "name": "Japan",
+     "usd": 24819109.683
+    },
+    {
+     "name": "South Korea",
+     "usd": 12097420.0
+    },
+    {
+     "name": "Netherlands",
+     "usd": 1029204.19
+    }
+   ],
+   "exportWeightToProduction": 0.6903582297975471
+  },
+  {
+   "id": 558,
+   "name": "Nicaragua",
+   "faoArea": null,
+   "m49": "558",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 735400.0,
+    "netWeightT": 364.7851,
+    "classification": "H6",
+    "rank": 48,
+    "share": 0.0004221871561909549
+   },
+   "comtradeReporter": "Nicaragua",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 129549.702,
+   "topBuyers": [
+    {
+     "name": "Canada",
+     "usd": 117940.489
+    },
+    {
+     "name": "United States",
+     "usd": 11564.0
+    },
+    {
+     "name": "Bahrain",
+     "usd": 45.213
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 562,
+   "name": "Niger",
+   "faoArea": "Niger",
+   "m49": "562",
+   "production": {
+    "tonnes": 517704.08,
+    "flag": "A",
+    "rank": 12,
+    "share": 0.014969292787922618
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 303.191,
+   "topBuyers": [
+    {
+     "name": "Côte d'Ivoire",
+     "usd": 247.438
+    },
+    {
+     "name": "Luxembourg",
+     "usd": 55.753
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 566,
+   "name": "Nigeria",
+   "faoArea": null,
+   "m49": "566",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 970.484,
+    "netWeightT": 0.892,
+    "classification": "H6",
+    "rank": 103,
+    "share": 5.571469677574418e-07
+   },
+   "comtradeReporter": "Nigeria",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1457.417,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 736.882
+    },
+    {
+     "name": "France",
+     "usd": 232.712
+    },
+    {
+     "name": "Belgium",
+     "usd": 159.305
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 408,
+   "name": "North Korea",
+   "faoArea": "Democratic People's Republic of Korea",
+   "m49": "408",
+   "production": {
+    "tonnes": 71693.93,
+    "flag": "I",
+    "rank": 50,
+    "share": 0.0020730132729238466
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 807,
+   "name": "North Macedonia",
+   "faoArea": null,
+   "m49": "807",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 60027.5,
+    "netWeightT": 72.91,
+    "classification": "H6",
+    "rank": 83,
+    "share": 3.4461299317721705e-05
+   },
+   "comtradeReporter": "North Macedonia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 70039.377,
+   "topBuyers": [
+    {
+     "name": "Moldova",
+     "usd": 22904.0
+    },
+    {
+     "name": "Ukraine",
+     "usd": 17279.77
+    },
+    {
+     "name": "Estonia",
+     "usd": 11999.42
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 579,
+   "name": "Norway",
+   "faoArea": null,
+   "m49": "579",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 16269.491,
+    "netWeightT": 2.655,
+    "classification": "H6",
+    "rank": 91,
+    "share": 9.340182401365698e-06
+   },
+   "comtradeReporter": "Norway",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 51.449,
+   "topBuyers": [
+    {
+     "name": "Maldives",
+     "usd": 51.449
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 512,
+   "name": "Oman",
+   "faoArea": "Oman",
+   "m49": "512",
+   "production": {
+    "tonnes": 22076.0,
+    "flag": "A",
+    "rank": 72,
+    "share": 0.000638322393723804
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 1777370.608,
+    "netWeightT": 9150.003,
+    "classification": "H6",
+    "rank": 32,
+    "share": 0.0010203740039283497
+   },
+   "comtradeReporter": "Oman",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 3917638.649,
+   "topBuyers": [
+    {
+     "name": "Kuwait",
+     "usd": 1373037.0
+    },
+    {
+     "name": "Bahrain",
+     "usd": 1203872.709
+    },
+    {
+     "name": "Qatar",
+     "usd": 1080286.345
+    }
+   ],
+   "exportWeightToProduction": 0.4144773962674398
+  },
+  {
+   "id": 586,
+   "name": "Pakistan",
+   "faoArea": "Pakistan",
+   "m49": "586",
+   "production": {
+    "tonnes": 378125.0,
+    "flag": "A",
+    "rank": 18,
+    "share": 0.010933396227886092
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 1162067.951,
+    "netWeightT": 1147.313,
+    "classification": "H6",
+    "rank": 39,
+    "share": 0.0006671337551446013
+   },
+   "comtradeReporter": "Pakistan",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 3681203.2,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 2402360.591
+    },
+    {
+     "name": "Bahrain",
+     "usd": 342710.584
+    },
+    {
+     "name": "Qatar",
+     "usd": 338684.158
+    }
+   ],
+   "exportWeightToProduction": 0.0030342161983471076
+  },
+  {
+   "id": 591,
+   "name": "Panama",
+   "faoArea": "Panama",
+   "m49": "591",
+   "production": {
+    "tonnes": 12802.0,
+    "flag": "A",
+    "rank": 82,
+    "share": 0.0003701668456446883
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 5206629.0,
+    "netWeightT": 9807.976,
+    "classification": "H6",
+    "rank": 20,
+    "share": 0.002989083343556371
+   },
+   "comtradeReporter": "Panama",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 4356285.053,
+   "topBuyers": [
+    {
+     "name": "United States",
+     "usd": 3655712.0
+    },
+    {
+     "name": "Italy",
+     "usd": 422413.045
+    },
+    {
+     "name": "Spain",
+     "usd": 122019.783
+    }
+   ],
+   "exportWeightToProduction": 0.7661284174347759
+  },
+  {
+   "id": 598,
+   "name": "Papua New Guinea",
+   "faoArea": "Papua New Guinea",
+   "m49": "598",
+   "production": {
+    "tonnes": 153.04,
+    "flag": "I",
+    "rank": 120,
+    "share": 4.4251159238761985e-06
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 25.515,
+   "topBuyers": [
+    {
+     "name": "Maldives",
+     "usd": 25.515
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 600,
+   "name": "Paraguay",
+   "faoArea": "Paraguay",
+   "m49": "600",
+   "production": {
+    "tonnes": 8938.45,
+    "flag": "I",
+    "rank": 87,
+    "share": 0.00025845319805130166
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 604,
+   "name": "Peru",
+   "faoArea": "Peru",
+   "m49": "604",
+   "production": {
+    "tonnes": 256281.98,
+    "flag": "A",
+    "rank": 26,
+    "share": 0.007410333708184275
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 2766378.391,
+    "netWeightT": 15739.274279,
+    "classification": "H6",
+    "rank": 25,
+    "share": 0.0015881553247816145
+   },
+   "comtradeReporter": "Peru",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 3319526.011,
+   "topBuyers": [
+    {
+     "name": "Chile",
+     "usd": 1509741.892
+    },
+    {
+     "name": "Spain",
+     "usd": 1190461.007
+    },
+    {
+     "name": "Italy",
+     "usd": 303246.204
+    }
+   ],
+   "exportWeightToProduction": 0.061413893708016455
+  },
+  {
+   "id": 608,
+   "name": "Philippines",
+   "faoArea": "Philippines",
+   "m49": "608",
+   "production": {
+    "tonnes": 245103.24,
+    "flag": "A",
+    "rank": 27,
+    "share": 0.007087103047031165
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 238.0,
+    "netWeightT": 0.272,
+    "classification": "H6",
+    "rank": 111,
+    "share": 1.36633863439553e-07
+   },
+   "comtradeReporter": "Philippines",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 66.151,
+   "topBuyers": [
+    {
+     "name": "Bahrain",
+     "usd": 40.239
+    },
+    {
+     "name": "Luxembourg",
+     "usd": 25.912
+    }
+   ],
+   "exportWeightToProduction": 1.1097364522802718e-06
+  },
+  {
+   "id": 616,
+   "name": "Poland",
+   "faoArea": "Poland",
+   "m49": "616",
+   "production": {
+    "tonnes": 425200.0,
+    "flag": "A",
+    "rank": 15,
+    "share": 0.012294558878934655
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 8512692.0,
+    "netWeightT": 8598.617,
+    "classification": "H6",
+    "rank": 18,
+    "share": 0.004887067211054517
+   },
+   "comtradeReporter": "Poland",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 7161367.93,
+   "topBuyers": [
+    {
+     "name": "Germany",
+     "usd": 891795.244
+    },
+    {
+     "name": "Austria",
+     "usd": 803534.359
+    },
+    {
+     "name": "Italy",
+     "usd": 761002.219
+    }
+   ],
+   "exportWeightToProduction": 0.020222523518344308
+  },
+  {
+   "id": 620,
+   "name": "Portugal",
+   "faoArea": "Portugal",
+   "m49": "620",
+   "production": {
+    "tonnes": 121030.0,
+    "flag": "A",
+    "rank": 38,
+    "share": 0.0034995542359300595
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 28671761.893,
+    "netWeightT": 34184.731,
+    "classification": "H6",
+    "rank": 10,
+    "share": 0.016460225206132523
+   },
+   "comtradeReporter": "Portugal",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 28542264.014,
+   "topBuyers": [
+    {
+     "name": "Spain",
+     "usd": 8620725.994
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 6622438.596
+    },
+    {
+     "name": "France",
+     "usd": 3574971.691
+    }
+   ],
+   "exportWeightToProduction": 0.2824484094852516
+  },
+  {
+   "id": 630,
+   "name": "Puerto Rico",
+   "faoArea": "Puerto Rico",
+   "m49": "630",
+   "production": {
+    "tonnes": 11246.15,
+    "flag": "I",
+    "rank": 85,
+    "share": 0.000325179805588737
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 634,
+   "name": "Qatar",
+   "faoArea": "Qatar",
+   "m49": "634",
+   "production": {
+    "tonnes": 14172.24,
+    "flag": "I",
+    "rank": 81,
+    "share": 0.00040978701581936237
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 77641.092,
+   "topBuyers": [
+    {
+     "name": "Oman",
+     "usd": 77641.092
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 642,
+   "name": "Romania",
+   "faoArea": "Romania",
+   "m49": "642",
+   "production": {
+    "tonnes": 9770.0,
+    "flag": "A",
+    "rank": 86,
+    "share": 0.0002824972724534139
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 302537.67,
+    "netWeightT": 244.977226,
+    "classification": "H6",
+    "rank": 64,
+    "share": 0.00017368441465588462
+   },
+   "comtradeReporter": "Romania",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 301012.698,
+   "topBuyers": [
+    {
+     "name": "Belgium",
+     "usd": 232224.557
+    },
+    {
+     "name": "Hungary",
+     "usd": 29865.142
+    },
+    {
+     "name": "Moldova",
+     "usd": 14928.0
+    }
+   ],
+   "exportWeightToProduction": 0.025074434595701127
+  },
+  {
+   "id": 643,
+   "name": "Russia",
+   "faoArea": "Russian Federation",
+   "m49": "643",
+   "production": {
+    "tonnes": 1163234.89,
+    "flag": "I",
+    "rank": 4,
+    "share": 0.03363466567529651
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 16915.239999999998,
+   "topBuyers": [
+    {
+     "name": "Kazakhstan",
+     "usd": 15812.15
+    },
+    {
+     "name": "Armenia",
+     "usd": 1103.09
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 646,
+   "name": "Rwanda",
+   "faoArea": "Rwanda",
+   "m49": "646",
+   "production": {
+    "tonnes": 269329.2,
+    "flag": "E",
+    "rank": 24,
+    "share": 0.007787591032964176
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 549.106,
+    "netWeightT": 0.02,
+    "classification": "H6",
+    "rank": 108,
+    "share": 3.1523728662957636e-07
+   },
+   "comtradeReporter": "Rwanda",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 101954.832,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 101954.832
+    }
+   ],
+   "exportWeightToProduction": 7.425856535422077e-08
+  },
+  {
+   "id": 662,
+   "name": "Saint Lucia",
+   "faoArea": "Saint Lucia",
+   "m49": "662",
+   "production": {
+    "tonnes": 503.87,
+    "flag": "I",
+    "rank": 115,
+    "share": 1.4569283589672635e-05
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 2399.2929999999997,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 1568.887
+    },
+    {
+     "name": "Switzerland",
+     "usd": 830.406
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 670,
+   "name": "Saint Vincent and the Grenadines",
+   "faoArea": "Saint Vincent and the Grenadines",
+   "m49": "670",
+   "production": {
+    "tonnes": 143.0,
+    "flag": "A",
+    "rank": 121,
+    "share": 4.134811664364195e-06
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 3489.5,
+   "topBuyers": [
+    {
+     "name": "Barbados",
+     "usd": 3489.5
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 882,
+   "name": "Samoa",
+   "faoArea": null,
+   "m49": "882",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 2637.334,
+    "netWeightT": 0.855,
+    "classification": "H5",
+    "rank": 100,
+    "share": 1.514071989918025e-06
+   },
+   "comtradeReporter": "Samoa",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 4348.687,
+   "topBuyers": [
+    {
+     "name": "Poland",
+     "usd": 4076.0
+    },
+    {
+     "name": "Switzerland",
+     "usd": 272.687
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 682,
+   "name": "Saudi Arabia",
+   "faoArea": "Saudi Arabia",
+   "m49": "682",
+   "production": {
+    "tonnes": 84768.48,
+    "flag": "I",
+    "rank": 47,
+    "share": 0.0024510608382826778
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 305683.192,
+    "netWeightT": 1297.116,
+    "classification": "H6",
+    "rank": 63,
+    "share": 0.00017549023324157416
+   },
+   "comtradeReporter": "Saudi Arabia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 694582.296,
+   "topBuyers": [
+    {
+     "name": "Qatar",
+     "usd": 243355.454
+    },
+    {
+     "name": "Germany",
+     "usd": 183306.154
+    },
+    {
+     "name": "Bahrain",
+     "usd": 174840.797
+    }
+   ],
+   "exportWeightToProduction": 0.015301866920345865
+  },
+  {
+   "id": 686,
+   "name": "Senegal",
+   "faoArea": "Senegal",
+   "m49": "686",
+   "production": {
+    "tonnes": 16737.9,
+    "flag": "I",
+    "rank": 78,
+    "share": 0.00048397247662210815
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 515455.469,
+    "netWeightT": 828.282,
+    "classification": "H6",
+    "rank": 54,
+    "share": 0.00029591879059040645
+   },
+   "comtradeReporter": "Senegal",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 2917753.075,
+   "topBuyers": [
+    {
+     "name": "Italy",
+     "usd": 1064786.366
+    },
+    {
+     "name": "Spain",
+     "usd": 733839.531
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 632881.7
+    }
+   ],
+   "exportWeightToProduction": 0.049485419317835566
+  },
+  {
+   "id": 688,
+   "name": "Serbia",
+   "faoArea": null,
+   "m49": "688",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 391657.0,
+    "netWeightT": 892.749,
+    "classification": "H6",
+    "rank": 58,
+    "share": 0.00022484709686195378
+   },
+   "comtradeReporter": "Serbia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 484880.342,
+   "topBuyers": [
+    {
+     "name": "Hungary",
+     "usd": 209551.489
+    },
+    {
+     "name": "Montenegro",
+     "usd": 176433.365
+    },
+    {
+     "name": "Switzerland",
+     "usd": 50725.483
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 694,
+   "name": "Sierra Leone",
+   "faoArea": "Sierra Leone",
+   "m49": "694",
+   "production": {
+    "tonnes": 1020.0,
+    "flag": "E",
+    "rank": 110,
+    "share": 2.9493062221339013e-05
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 702,
+   "name": "Singapore",
+   "faoArea": null,
+   "m49": "702",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 759015.641,
+    "netWeightT": 357.81,
+    "classification": "H6",
+    "rank": 47,
+    "share": 0.000435744703533104
+   },
+   "comtradeReporter": "Singapore",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 174.079,
+   "topBuyers": [
+    {
+     "name": "Malaysia",
+     "usd": 124.114
+    },
+    {
+     "name": "Papua New Guinea",
+     "usd": 49.965
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 703,
+   "name": "Slovakia",
+   "faoArea": "Slovakia",
+   "m49": "703",
+   "production": {
+    "tonnes": 2560.0,
+    "flag": "A",
+    "rank": 103,
+    "share": 7.402180322218419e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 134329.909,
+    "netWeightT": 182.226,
+    "classification": "H6",
+    "rank": 78,
+    "share": 7.71177077401411e-05
+   },
+   "comtradeReporter": "Slovakia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 477654.573,
+   "topBuyers": [
+    {
+     "name": "Slovakia",
+     "usd": 295488.783
+    },
+    {
+     "name": "Czechia",
+     "usd": 90041.0
+    },
+    {
+     "name": "Germany",
+     "usd": 52326.967
+    }
+   ],
+   "exportWeightToProduction": 0.07118203125
+  },
+  {
+   "id": 705,
+   "name": "Slovenia",
+   "faoArea": "Slovenia",
+   "m49": "705",
+   "production": {
+    "tonnes": 5070.0,
+    "flag": "A",
+    "rank": 93,
+    "share": 0.0001465978681001851
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 216624.482,
+    "netWeightT": 121.74717999999999,
+    "classification": "H6",
+    "rank": 73,
+    "share": 0.00012436235248425168
+   },
+   "comtradeReporter": "Slovenia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 660657.1229999999,
+   "topBuyers": [
+    {
+     "name": "Croatia",
+     "usd": 592453.0
+    },
+    {
+     "name": "Italy",
+     "usd": 40846.874
+    },
+    {
+     "name": "Spain",
+     "usd": 25430.354
+    }
+   ],
+   "exportWeightToProduction": 0.024013250493096643
+  },
+  {
+   "id": 710,
+   "name": "South Africa",
+   "faoArea": "South Africa",
+   "m49": "710",
+   "production": {
+    "tonnes": 295149.0,
+    "flag": "A",
+    "rank": 21,
+    "share": 0.008534164530947047
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 17764908.205,
+    "netWeightT": 22838.38437,
+    "classification": "H6",
+    "rank": 12,
+    "share": 0.010198689250832622
+   },
+   "comtradeReporter": "South Africa",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 35046050.48,
+   "topBuyers": [
+    {
+     "name": "Netherlands",
+     "usd": 9023879.497
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 8308580.031
+    },
+    {
+     "name": "Germany",
+     "usd": 5218687.775
+    }
+   ],
+   "exportWeightToProduction": 0.07737916906376101
+  },
+  {
+   "id": 410,
+   "name": "South Korea",
+   "faoArea": "Republic of Korea",
+   "m49": "410",
+   "production": {
+    "tonnes": 306850.66,
+    "flag": "I",
+    "rank": 20,
+    "share": 0.008872515301998962
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 869606.0,
+    "netWeightT": 532.338399,
+    "classification": "H6",
+    "rank": 44,
+    "share": 0.0004992337287824198
+   },
+   "comtradeReporter": "Rep. of Korea",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 803672.5059999999,
+   "topBuyers": [
+    {
+     "name": "Japan",
+     "usd": 526464.582
+    },
+    {
+     "name": "Hong Kong SAR",
+     "usd": 148279.304
+    },
+    {
+     "name": "Singapore",
+     "usd": 118014.568
+    }
+   ],
+   "exportWeightToProduction": 0.00173484521428111
+  },
+  {
+   "id": 728,
+   "name": "South Sudan",
+   "faoArea": "South Sudan",
+   "m49": "728",
+   "production": {
+    "tonnes": 68197.16,
+    "flag": "E",
+    "rank": 51,
+    "share": 0.001971904983528051
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 1018.0,
+   "topBuyers": [
+    {
+     "name": "Czechia",
+     "usd": 1018.0
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 724,
+   "name": "Spain",
+   "faoArea": "Spain",
+   "m49": "724",
+   "production": {
+    "tonnes": 770770.0,
+    "flag": "A",
+    "rank": 8,
+    "share": 0.02228663487092301
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 573878365.831,
+    "netWeightT": 435704.82337,
+    "classification": "H6",
+    "rank": 1,
+    "share": 0.32945890028515407
+   },
+   "comtradeReporter": "Spain",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 619056872.6599998,
+   "topBuyers": [
+    {
+     "name": "France",
+     "usd": 166435120.305
+    },
+    {
+     "name": "Germany",
+     "usd": 132777480.082
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 69291504.439
+    }
+   ],
+   "exportWeightToProduction": 0.5652851348262128
+  },
+  {
+   "id": 144,
+   "name": "Sri Lanka",
+   "faoArea": "Sri Lanka",
+   "m49": "144",
+   "production": {
+    "tonnes": 162801.2,
+    "flag": "A",
+    "rank": 32,
+    "share": 0.004707358746381036
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 138122.615,
+    "netWeightT": 76.346,
+    "classification": "H6",
+    "rank": 77,
+    "share": 7.929506939421828e-05
+   },
+   "comtradeReporter": "Sri Lanka",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1311475.902,
+   "topBuyers": [
+    {
+     "name": "Maldives",
+     "usd": 565931.711
+    },
+    {
+     "name": "United Kingdom",
+     "usd": 278057.019
+    },
+    {
+     "name": "Kuwait",
+     "usd": 255554.0
+    }
+   ],
+   "exportWeightToProduction": 0.0004689523173047864
+  },
+  {
+   "id": 729,
+   "name": "Sudan",
+   "faoArea": "Sudan",
+   "m49": "729",
+   "production": {
+    "tonnes": 33916.85,
+    "flag": "E",
+    "rank": 61,
+    "share": 0.000980697811178257
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 752,
+   "name": "Sweden",
+   "faoArea": "Sweden",
+   "m49": "752",
+   "production": {
+    "tonnes": 7080.0,
+    "flag": "A",
+    "rank": 90,
+    "share": 0.00020471654953635313
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 107024.867,
+    "netWeightT": 93.492537,
+    "classification": "H6",
+    "rank": 81,
+    "share": 6.144210530384168e-05
+   },
+   "comtradeReporter": "Sweden",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 250150.66700000002,
+   "topBuyers": [
+    {
+     "name": "Netherlands",
+     "usd": 97559.28
+    },
+    {
+     "name": "Denmark",
+     "usd": 57417.661
+    },
+    {
+     "name": "Norway",
+     "usd": 43809.357
+    }
+   ],
+   "exportWeightToProduction": 0.013205160593220338
+  },
+  {
+   "id": 757,
+   "name": "Switzerland",
+   "faoArea": "Switzerland",
+   "m49": "756",
+   "production": {
+    "tonnes": 11481.0,
+    "flag": "A",
+    "rank": 84,
+    "share": 0.00033197043859136587
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 21047.434,
+    "netWeightT": 156.899,
+    "classification": "H6",
+    "rank": 89,
+    "share": 1.2083160600458001e-05
+   },
+   "comtradeReporter": "Switzerland",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1928.4540000000002,
+   "topBuyers": [
+    {
+     "name": "Netherlands",
+     "usd": 1071.557
+    },
+    {
+     "name": "Oman",
+     "usd": 644.993
+    },
+    {
+     "name": "Germany",
+     "usd": 172.288
+    }
+   ],
+   "exportWeightToProduction": 0.01366596986325233
+  },
+  {
+   "id": 760,
+   "name": "Syria",
+   "faoArea": "Syrian Arab Republic",
+   "m49": "760",
+   "production": {
+    "tonnes": 115220.0,
+    "flag": "A",
+    "rank": 39,
+    "share": 0.0033315594403359617
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 1465181.239,
+   "topBuyers": [
+    {
+     "name": "Germany",
+     "usd": 716423.02
+    },
+    {
+     "name": "Netherlands",
+     "usd": 368500.757
+    },
+    {
+     "name": "Lebanon",
+     "usd": 225461.0
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 490,
+   "name": "Taiwan Province of China",
+   "faoArea": "China, Taiwan Province of",
+   "m49": "158",
+   "production": {
+    "tonnes": 43472.62,
+    "flag": "I",
+    "rank": 56,
+    "share": 0.001257000673122183
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 24174.017,
+    "netWeightT": 14.475,
+    "classification": "H6",
+    "rank": 88,
+    "share": 1.3878106460350555e-05
+   },
+   "comtradeReporter": "Other Asia, nes",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 35615.683,
+   "topBuyers": [
+    {
+     "name": "Singapore",
+     "usd": 35508.768
+    },
+    {
+     "name": "Canada",
+     "usd": 106.915
+    }
+   ],
+   "exportWeightToProduction": 0.0003329681992941764
+  },
+  {
+   "id": 834,
+   "name": "Tanzania",
+   "faoArea": null,
+   "m49": "834",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 687458.865,
+    "netWeightT": 554.609,
+    "classification": "H6",
+    "rank": 50,
+    "share": 0.00039466454067529444
+   },
+   "comtradeReporter": "United Rep. of Tanzania",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 164383.302,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 150269.452
+    },
+    {
+     "name": "Rwanda",
+     "usd": 9064.897
+    },
+    {
+     "name": "France",
+     "usd": 3506.913
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 764,
+   "name": "Thailand",
+   "faoArea": "Thailand",
+   "m49": "764",
+   "production": {
+    "tonnes": 109821.19,
+    "flag": "E",
+    "rank": 40,
+    "share": 0.0031754541077367586
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 248007.583,
+    "netWeightT": 486.405,
+    "classification": "H6",
+    "rank": 69,
+    "share": 0.00014237913541006555
+   },
+   "comtradeReporter": "Thailand",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1025850.855,
+   "topBuyers": [
+    {
+     "name": "Singapore",
+     "usd": 543853.369
+    },
+    {
+     "name": "Norway",
+     "usd": 153186.094
+    },
+    {
+     "name": "Malaysia",
+     "usd": 106504.68
+    }
+   ],
+   "exportWeightToProduction": 0.004429063280046409
+  },
+  {
+   "id": 776,
+   "name": "Tonga",
+   "faoArea": "Tonga",
+   "m49": "776",
+   "production": {
+    "tonnes": 21009.97,
+    "flag": "I",
+    "rank": 74,
+    "share": 0.0006074983847828098
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 134099.667,
+   "topBuyers": [
+    {
+     "name": "New Zealand",
+     "usd": 134099.667
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 780,
+   "name": "Trinidad and Tobago",
+   "faoArea": "Trinidad and Tobago",
+   "m49": "780",
+   "production": {
+    "tonnes": 1369.0,
+    "flag": "A",
+    "rank": 108,
+    "share": 3.958431586373834e-05
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 20705.103,
+    "netWeightT": 8.044,
+    "classification": "H4",
+    "rank": 90,
+    "share": 1.1886631158839825e-05
+   },
+   "comtradeReporter": "Trinidad and Tobago",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 657.784,
+   "topBuyers": [
+    {
+     "name": "Canada",
+     "usd": 657.784
+    }
+   ],
+   "exportWeightToProduction": 0.00587582176771366
+  },
+  {
+   "id": 788,
+   "name": "Tunisia",
+   "faoArea": "Tunisia",
+   "m49": "788",
+   "production": {
+    "tonnes": 86601.96,
+    "flag": "I",
+    "rank": 46,
+    "share": 0.0025040754850685415
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 722887.877,
+    "netWeightT": 503.049324,
+    "classification": "H6",
+    "rank": 49,
+    "share": 0.0004150040481854049
+   },
+   "comtradeReporter": "Tunisia",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 600948.916,
+   "topBuyers": [
+    {
+     "name": "Italy",
+     "usd": 530800.46
+    },
+    {
+     "name": "France",
+     "usd": 41757.156
+    },
+    {
+     "name": "Spain",
+     "usd": 21919.826
+    }
+   ],
+   "exportWeightToProduction": 0.00580875218066658
+  },
+  {
+   "id": 792,
+   "name": "Türkiye",
+   "faoArea": "Türkiye",
+   "m49": "792",
+   "production": {
+    "tonnes": 741952.0,
+    "flag": "A",
+    "rank": 9,
+    "share": 0.021453369118869532
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 70839488.0,
+    "netWeightT": 92818.285,
+    "classification": "H6",
+    "rank": 4,
+    "share": 0.04066837365344476
+   },
+   "comtradeReporter": "Türkiye",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 47378900.736,
+   "topBuyers": [
+    {
+     "name": "Romania",
+     "usd": 9571790.29
+    },
+    {
+     "name": "Ukraine",
+     "usd": 6075104.04
+    },
+    {
+     "name": "Germany",
+     "usd": 5206249.671
+    }
+   ],
+   "exportWeightToProduction": 0.12510012103208834
+  },
+  {
+   "id": 800,
+   "name": "Uganda",
+   "faoArea": null,
+   "m49": "800",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 243752.19,
+    "netWeightT": 512.8154099999999,
+    "classification": "H6",
+    "rank": 70,
+    "share": 0.0001399361489140839
+   },
+   "comtradeReporter": "Uganda",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 322135.0,
+   "topBuyers": [
+    {
+     "name": "United Kingdom",
+     "usd": 259830.279
+    },
+    {
+     "name": "Norway",
+     "usd": 41670.311
+    },
+    {
+     "name": "Sweden",
+     "usd": 18547.192
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 804,
+   "name": "Ukraine",
+   "faoArea": "Ukraine",
+   "m49": "804",
+   "production": {
+    "tonnes": 1105900.0,
+    "flag": "E",
+    "rank": 5,
+    "share": 0.03197684069664589
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 4555.19,
+    "netWeightT": 10.564558000000002,
+    "classification": "H6",
+    "rank": 99,
+    "share": 2.615097514290829e-06
+   },
+   "comtradeReporter": "Ukraine",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1640.0,
+   "topBuyers": [
+    {
+     "name": "Moldova",
+     "usd": 1640.0
+    }
+   ],
+   "exportWeightToProduction": 9.552905325978842e-06
+  },
+  {
+   "id": 784,
+   "name": "United Arab Emirates",
+   "faoArea": "United Arab Emirates",
+   "m49": "784",
+   "production": {
+    "tonnes": 21053.56,
+    "flag": "I",
+    "rank": 73,
+    "share": 0.0006087587794712688
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 123508.253,
+   "topBuyers": [
+    {
+     "name": "Maldives",
+     "usd": 56518.868
+    },
+    {
+     "name": "Oman",
+     "usd": 37152.146
+    },
+    {
+     "name": "Seychelles",
+     "usd": 16557.891
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 826,
+   "name": "United Kingdom",
+   "faoArea": null,
+   "m49": "826",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 2311438.701,
+    "netWeightT": 2633.3534449999997,
+    "classification": "H6",
+    "rank": 28,
+    "share": 0.001326978150509797
+   },
+   "comtradeReporter": "United Kingdom",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 1756619.2689999999,
+   "topBuyers": [
+    {
+     "name": "Ireland",
+     "usd": 978477.348
+    },
+    {
+     "name": "Italy",
+     "usd": 336365.964
+    },
+    {
+     "name": "Netherlands",
+     "usd": 140961.654
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 842,
+   "name": "United States",
+   "faoArea": "United States of America",
+   "m49": "840",
+   "production": {
+    "tonnes": 934922.0,
+    "flag": "A",
+    "rank": 6,
+    "share": 0.027033051684410503
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 64198216.0,
+    "netWeightT": 47055.016,
+    "classification": "H6",
+    "rank": 5,
+    "share": 0.03685567343700388
+   },
+   "comtradeReporter": "USA",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 15502053.598,
+   "topBuyers": [
+    {
+     "name": "Canada",
+     "usd": 9957953.478
+    },
+    {
+     "name": "Mexico",
+     "usd": 3282173.0
+    },
+    {
+     "name": "Bahamas",
+     "usd": 563410.0
+    }
+   ],
+   "exportWeightToProduction": 0.050330419008216734
+  },
+  {
+   "id": 858,
+   "name": "Uruguay",
+   "faoArea": "Uruguay",
+   "m49": "858",
+   "production": {
+    "tonnes": 26202.95,
+    "flag": "I",
+    "rank": 68,
+    "share": 0.0007576521909143481
+   },
+   "productionStatus": "reported",
+   "exports": {
+    "usd": 275334.0,
+    "netWeightT": 418.967,
+    "classification": "H6",
+    "rank": 66,
+    "share": 0.00015806700905994067
+   },
+   "comtradeReporter": "Uruguay",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 313762.431,
+   "topBuyers": [
+    {
+     "name": "Italy",
+     "usd": 279035.518
+    },
+    {
+     "name": "Spain",
+     "usd": 34726.913
+    }
+   ],
+   "exportWeightToProduction": 0.01598930654754522
+  },
+  {
+   "id": 860,
+   "name": "Uzbekistan",
+   "faoArea": null,
+   "m49": "860",
+   "production": null,
+   "productionStatus": "no FAOSTAT row",
+   "exports": {
+    "usd": 1348252.98,
+    "netWeightT": 4305.8985,
+    "classification": "H6",
+    "rank": 36,
+    "share": 0.0007740210653415561
+   },
+   "comtradeReporter": "Uzbekistan",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": 856963.865,
+   "topBuyers": [
+    {
+     "name": "Kazakhstan",
+     "usd": 583202.66
+    },
+    {
+     "name": "Kyrgyzstan",
+     "usd": 265915.0
+    },
+    {
+     "name": "Latvia",
+     "usd": 4415.745
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 862,
+   "name": "Venezuela",
+   "faoArea": "Venezuela (Bolivarian Republic of)",
+   "m49": "862",
+   "production": {
+    "tonnes": 87607.21,
+    "flag": "I",
+    "rank": 45,
+    "share": 0.0025331420544783467
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 12.344,
+   "topBuyers": [
+    {
+     "name": "Switzerland",
+     "usd": 12.344
+    }
+   ],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 887,
+   "name": "Yemen",
+   "faoArea": "Yemen",
+   "m49": "887",
+   "production": null,
+   "productionStatus": "missing (FAO flag M)",
+   "exports": {
+    "usd": 299.219,
+    "netWeightT": 0.16,
+    "classification": "H5",
+    "rank": 110,
+    "share": 1.7177919321226723e-07
+   },
+   "comtradeReporter": "Yemen",
+   "exportStatus": "reported",
+   "mirrorImportsUsd": null,
+   "topBuyers": [],
+   "exportWeightToProduction": null
+  },
+  {
+   "id": 716,
+   "name": "Zimbabwe",
+   "faoArea": "Zimbabwe",
+   "m49": "716",
+   "production": {
+    "tonnes": 269968.28,
+    "flag": "I",
+    "rank": 23,
+    "share": 0.007806069882184189
+   },
+   "productionStatus": "reported",
+   "exports": null,
+   "exportStatus": "not reported to UN Comtrade",
+   "mirrorImportsUsd": 35764.963,
+   "topBuyers": [
+    {
+     "name": "Germany",
+     "usd": 35764.963
+    }
+   ],
+   "exportWeightToProduction": null
+  }
+ ]
+}

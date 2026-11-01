@@ -1,0 +1,4 @@
+.DS_Store
+__pycache__/
+# 32 MB FAOSTAT bulk download; scripts/build_data.py re-downloads it and keeps the item extract in sources/raw/
+sources/faostat-qcl.zip
