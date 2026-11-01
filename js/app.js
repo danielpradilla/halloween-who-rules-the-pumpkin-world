@@ -188,7 +188,7 @@ function renderSplit(ctx) {
   host.dataset.state = 'ready';
 }
 
-/* ---------- Chapters 1 and 2: ranked bars ---------- */
+/* ---------- Charts 1 and 2: ranked bars ---------- */
 
 function renderBars(hostId, rows, opts) {
   const host = document.getElementById(hostId);
@@ -243,7 +243,7 @@ function renderTables(ctx) {
   );
 }
 
-/* ---------- Chapter 3: paradox chart ---------- */
+/* ---------- Chart 3: paradox chart ---------- */
 
 const state = { view: 'rank', selected: null, hover: null };
 let ctxKeys = new Set(); // ids of the two top growers and two top exporters, emphasised in the bar charts
