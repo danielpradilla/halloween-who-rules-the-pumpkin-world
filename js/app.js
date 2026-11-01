@@ -95,7 +95,7 @@ function fillFacts(data, ctx) {
     tenthExport: fmtUsd(t.tenthExportUsd),
     unreportedProducers: andList(ctx.producers.slice(0, 20).filter((c) => !c.exports).map((c) => c.name)) || 'no country',
     coverageVerdict: !unreported || unreported.mirrorImportsUsd < t.tenthExportUsd
-      ? 'so no non-reporter would enter the top 10'
+      ? 'so partner data do not suggest that any non-reporter belongs in the top 10'
       : 'so at least one non-reporter may belong in the top 10',
   };
   document.querySelectorAll('[data-fact]').forEach((node) => {
@@ -106,7 +106,7 @@ function fillFacts(data, ctx) {
   const growExp = sumOrNull([eShare(p1), eShare(p2)]);
   document.getElementById('lede').innerHTML =
     `In ${year}, <span class="grow">${esc(p1.name)} and ${esc(p2.name)}</span> grew ${pct(pShare(p1) + pShare(p2))} of the world’s pumpkins, squash and gourds, ` +
-    `yet accounted for ${growExp == null ? 'an unreported share' : `only ${pct(growExp)}`} of reported export value. ` +
+    `and accounted for ${growExp == null ? 'an unreported share' : pct(growExp)} of reported export value. ` +
     `<span class="sell">${esc(e1.name)} and ${esc(e2.name)}</span> grew ${pct(sumOrNull([pShare(e1), pShare(e2)]))} and sold ${pct(eShare(e1) + eShare(e2))}.`;
 
   const exportRankText = (c) => (c.exports ? ordinal(c.exports.rank) : 'nowhere (no export report)');
@@ -135,7 +135,7 @@ function fillFacts(data, ctx) {
   document.getElementById('facts-list').innerHTML = [
     `<li>${esc(p1.name)} and ${esc(p2.name)}: ${pct(pShare(p1) + pShare(p2))} of world production, ${growExp == null ? 'exports not fully reported' : `${pct(growExp)} of reported exports`}.</li>`,
     `<li>${esc(e1.name)} and ${esc(e2.name)}: ${pct(eShare(e1) + eShare(e2))} of reported exports, ${pct(sumOrNull([pShare(e1), pShare(e2)]))} of world production.</li>`,
-    `<li>Only ${overlap.length} countries appear in both top 10s: ${andList(overlap.map((c) => esc(c.name)))}.</li>`,
+    `<li>Countries in both top 10s: ${andList(overlap.map((c) => esc(c.name)))} (${overlap.length}).</li>`,
     ratios.length ? `<li>Exported weight as a share of production weight (approximate): ${ratios.join('; ')}.</li>` : '',
     buyerText(e1) ?? '',
     buyerText(e2) ?? '',
@@ -435,7 +435,7 @@ function renderCard(ctx, c) {
   if (c.exportWeightToProduction != null) {
     const r = c.exportWeightToProduction;
     notes.push(r > 1
-      ? `Exported weight is ${pct(r)} of production weight: more than it grew, which points to re-exports or the scope gap between the two sources.`
+      ? `Exported weight is ${pct(r)} of production weight, more than it grew. Re-exports or the difference in scope between the two sources could explain this; the data cannot tell which.`
       : `Exported weight equals about ${r < 0.001 ? 'less than 0.1%' : pct(r)} of production weight.`);
   }
   if (c.exports && c.topBuyers?.length) {

@@ -31,7 +31,7 @@ Retrieved 1 November 2026. The page loads only `data/pumpkins-2024.json` and mak
 - Export share is country exports divided by the sum declared by all 114 reporters (US$1.74 billion). Only exporter-declared values are used in rankings.
 - FAO's regional aggregates and its "China" total are excluded. China (mainland) is ranked on its own.
 - A country with no value has no rank and is shown as "not reported". No missing value is replaced with zero.
-- Partner-declared imports are used only to check coverage (no non-reporting country would enter the export top 10; the largest is Bangladesh at $5.2M against $28.7M for 10th place) and to list each exporter's main buyers.
+- Partner-declared imports are used only to check coverage and to list each exporter's main buyers. For the largest non-reporter, Bangladesh, partners declared $5.2M of imports, against $28.7M for the 10th-ranked exporter, so partner data do not suggest that any non-reporter belongs in the top 10.
 - FAO M49 codes are joined to Comtrade reporter codes. Six differ: United States 840/842, France 250/251, India 356/699, Switzerland 756/757, Norway 578/579, and Taiwan 158/490 (Comtrade's "Other Asia, nes").
 
 The two classifications differ in scope. FAOSTAT's item includes *Lagenaria* bottle gourds; HS 070993 does not. HS 070993 covers fresh or chilled produce only. The page therefore compares ranks and shares and never puts tonnes and dollars on one axis.

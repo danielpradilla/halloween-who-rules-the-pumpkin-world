@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Who Rules the Pumpkin World?</title>
-  <meta name="description" content="The countries growing the most pumpkins, squash and gourds are not the ones selling the most abroad. FAOSTAT production and UN Comtrade exports for 2024, compared by rank and share.">
+  <meta name="description" content="In 2024, the countries growing the most pumpkins, squash and gourds were not the ones selling the most abroad. FAOSTAT production and UN Comtrade exports, compared by rank and share.">
   <link rel="canonical" href="https://www.danielpradilla.info/projects/halloween-who-rules-the-pumpkin-world/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Daniel Pradilla">
   <meta property="og:title" content="Who Rules the Pumpkin World?">
-  <meta property="og:description" content="India and China grow almost half the world's pumpkins, squash and gourds. Spain and Mexico sell about two-thirds of the exports. 2024 data from FAOSTAT and UN Comtrade.">
+  <meta property="og:description" content="In 2024, India and China grew almost half the world's pumpkins, squash and gourds. Spain and Mexico sold about two-thirds of reported exports. Data from FAOSTAT and UN Comtrade.">
   <meta property="og:url" content="https://www.danielpradilla.info/projects/halloween-who-rules-the-pumpkin-world/">
   <meta property="og:image" content="https://www.danielpradilla.info/projects/halloween-who-rules-the-pumpkin-world/og.jpg?v=1">
   <meta property="og:image:width" content="1200">
@@ -59,7 +59,7 @@
       <p class="lede" id="lede" aria-live="polite">Loading the production and trade figures…</p>
       <figure class="split-figure">
         <figcaption class="figure-head">
-          <span class="figure-title">China and India grow almost half the world’s pumpkins. Spain and Mexico sell about two-thirds of the exports.</span>
+          <span class="figure-title">China and India grew almost half the world’s pumpkins. Spain and Mexico sold about two-thirds of reported exports.</span>
           <span class="figure-sub">Share of world totals, <span data-fact="year">2024</span>. Upper bar: production, tonnes. Lower bar: reported exports, US dollars.</span>
         </figcaption>
         <div id="split" class="split" data-state="loading"><p class="state">Loading chart…</p></div>
@@ -152,8 +152,8 @@
     <section id="takeaway" class="chapter" aria-labelledby="takeaway-title">
       <div class="chapter-head">
         <p class="eyebrow">Takeaway</p>
-        <h2 id="takeaway-title">Why production leaders and export leaders differ</h2>
-        <p class="chapter-copy">I don't know. I'm no expert</p>
+        <h2 id="takeaway-title">Why might production leaders and export leaders differ?</h2>
+        <p class="chapter-copy">I don't know. I'm no expert.</p>
       </div>
       <div class="takeaway-grid">
         <div class="takeaway-block">
@@ -163,10 +163,10 @@
         <div class="takeaway-block">
           <h3>Plausible explanations, not tested here</h3>
           <ul>
-            <li>Domestic demand? India and China may have large populations that eat pumpkins?. FAOSTAT do not lists this item separately, we cannot show how much of the harvest is eaten at home.</li>
-            <li>Market access and distance? Pumpkins are heavy, perishable and cheap. Mexico borders the United States, and Spain is part of the EU</li>
-            <li>Off-season supply? Mexico and southern Spain can grow pumpkins when they are needed</li>
-            <li>The trade code’s scope? HS 070993 covers only <i>Cucurbita</i> species. Bottle gourds (<i>Lagenaria</i>), common in South Asia, are traded under another code, India’s exports may undercounted.</li>
+            <li>Domestic demand? India and China have large populations, who may eat much of what they grow. FAOSTAT does not list this item separately, so we cannot show how much of the harvest is eaten at home.</li>
+            <li>Market access and distance? Pumpkins are heavy, perishable and cheap. Mexico borders the United States, and Spain is part of the EU.</li>
+            <li>Off-season supply? Mexico and southern Spain may be able to grow pumpkins when buyers elsewhere need them.</li>
+            <li>The trade code’s scope? HS 070993 covers only <i>Cucurbita</i> species. Bottle gourds (<i>Lagenaria</i>), common in South Asia, are traded under another code, so India’s exports may be undercounted.</li>
           </ul>
         </div>
       </div>
@@ -199,14 +199,14 @@
               <dt>Indicator</dt>
               <dd>Exports (flow X) to all partners combined, as declared by the exporting country. Value is FOB in current US dollars, calendar year <span data-fact="year"></span>.</dd>
               <dt>Definition</dt>
-              <dd>Goods leaving a country’s economic territory, including re-exports where the reporter counts them. That matters for trading hubs such as the Netherlands.</dd>
+              <dd>Goods leaving a country’s economic territory, including re-exports where the reporter counts them. This may inflate the figures of trading hubs such as the Netherlands.</dd>
             </dl>
           </div>
           <div class="method-block">
             <h3>Calculations</h3>
             <dl class="definition-list">
               <dt>Production share</dt>
-              <dd>Country tonnes ÷ FAO’s World total (<span data-fact="worldT"></span>). Country rows sum to <span data-fact="countrySumT"></span>, <span data-fact="gapT"></span> less than the World total; FAO’s aggregates can include values not published at country level.</dd>
+              <dd>Country tonnes ÷ FAO’s World total (<span data-fact="worldT"></span>). Country rows sum to <span data-fact="countrySumT"></span>, <span data-fact="gapT"></span> less than the World total. FAO does not explain the gap; its aggregates may include values not published at country level.</dd>
               <dt>Export share</dt>
               <dd>Country export value ÷ the sum of exports declared by all <span data-fact="exportReporters"></span> reporting countries (<span data-fact="exportTotal"></span>). Non-reporters are not in the denominator.</dd>
               <dt>Ranks</dt>
@@ -263,6 +263,6 @@
     </symbol>
   </svg>
 
-  <script data-cfasync="false" type="module" src="js/app.js?v=1"></script>
+  <script data-cfasync="false" type="module" src="js/app.js?v=2"></script>
 </body>
 </html>
