@@ -288,7 +288,7 @@ function drawRank(ctx, width) {
     const g = svgEl('g', { class: `country ${cls}`, 'data-id': c.id });
     const mid = (L + R) / 2;
     const d = `M${L} ${y1} C${mid} ${y1} ${mid} ${y2} ${R} ${y2}`;
-    const link = svgEl('path', { class: `link${cls === 'missing' ? ' missing' : ''}`, d, style: `--i:${k}` });
+    const link = svgEl('path', { class: 'link', d, style: `--i:${k}` });
     g.append(svgEl('path', { class: 'hit', d }), link);
     if (c.production) addPumpkin(g, L, y1, 15);
     if (c.exports) addPumpkin(g, R, y2, 15);
@@ -380,7 +380,7 @@ function renderParadox(ctx) {
   document.getElementById('paradox-legend').innerHTML = isRank
     ? item('<span class="key key-grow"></span>', 'Bigger share of world production than of exports') +
       item('<span class="key key-sell"></span>', 'Bigger share of exports than of production') +
-      item('<span class="key key-missing"></span>', 'Exports not reported (dashed)')
+      item('<span class="key key-missing"></span>', 'Exports not reported (gray)')
     : item('<span class="dot dot-grow"></span>', 'Share of world production (tonnes)') +
       item('<span class="dot dot-sell"></span>', 'Share of reported exports (US$)');
   applyFocus();
